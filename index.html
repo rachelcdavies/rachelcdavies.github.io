@@ -7,13 +7,12 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts limit:1 %}
       <li>
-        
         <h1>
 	        {{ post.title }}
         </h1>
         <span class="post-meta">{{ post.date | date_to_string }}</span>
         <article class="post-content">{{ post.content }}</article>
-
+        {% include twitter_plug.html %}
       </li>
     {% endfor %}
   </ul>
