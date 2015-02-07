@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Good Enough Software Design? Try Testing DX of your Code</title>
+    <meta name="description" content="Thoughts on Agile Coaching
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://rachelcdavies.github.io/2014/06/27/good-enough-software-design-try-testing-dx-of-your-code.html">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Thoughts on Agile Coaching</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/archive/">Blog</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/presentations/">Presentations</a>
+          
+        
+        <a class="page-link" href="/feed.xml">Feed</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Good Enough Software Design? Try Testing DX of your Code</h1>
+    <p class="post-meta">27 Jun 2014</p>
+  </header>
+
+  <article class="post-content">
+    <p>Every day writing code we make many design decisions about naming and encapsulation of functionality. Our primary concern is to express our code in a way that can easily be understood at a later date so changes can be made cleanly. To this end, we&#39;ve learned to organise our code into smaller elements that can be composed neatly to support system behaviours, as where code gets complicated misunderstandings can happen.</p>
+<p>When trying to figure out code quality, developers normally lean on software to analyse code complexity and test coverage. Perhaps we might learn more about how good our design is by starting to apply techniques from UX to measure DX (Developer eXperience)?</p>
+<p>Developers are primary users of our software design, often working across a vast and complex codebase that&#39;s difficult to navigate around. Sometimes our code terrain is too crowded with repurposed junk and other times it&#39;s hard to see the wood for the trees with no easy landmarks to navigate by. We could start to measure how easy the code is for developers to navigate. How long does it take a developer to pinpoint the location of code to change? How many places do they look before finding the relevant areas to change? etc.<br /><a class="asset-img-link" href="http://agilecoach.typepad.com/.a/6a00e54ee21bf2883401a511d35505970c-pi" style="float: right;"><img alt="Goldfishbowltitle" class="asset  asset-image at-xid-6a00e54ee21bf2883401a511d35505970c img-responsive" src="http://agilecoach.typepad.com/.a/6a00e54ee21bf2883401a511d35505970c-200wi" style="width: 200px; margin: 0px 0px 5px 5px;" title="Goldfishbowltitle" /></a></p>
+<p>My interest in DX was rekindled by a recent discussion at <a href="http://socratesuk.org/" target="_blank" title="International Software Craftsmanship gathering">SoCraTes</a> on “What is good software design?”.&#0160; I sighed inwardly when the topic was chosen by the crowd and if I hadn&#39;t been on facilitator duty, I&#39;d probably have skipped the discussion entirely. How wrong I was! I’ll try to sum up the highlights and link to some earlier thoughts I had on topic of DX following a talk at London&#39;s Design Museum on the <a href="designmuseum.org/signup/newswire/updates-2013-01-28-talks-updates" target="_blank" title="Underground Maps Unravelled">usability of Underground maps</a>.</p>
+<p><br /> <a class="asset-img-link" href="http://agilecoach.typepad.com/.a/6a00e54ee21bf2883401a511d3549f970c-pi" style="float: left;"><img alt="Fish" class="asset  asset-image at-xid-6a00e54ee21bf2883401a511d3549f970c img-responsive" src="http://agilecoach.typepad.com/.a/6a00e54ee21bf2883401a511d3549f970c-320wi" style="margin: 0px 5px 5px 0px;" title="Fish" /></a><br /><br /></p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p>&#0160;We ran this evening discussion as a <a href="http://c2.com/cgi/wiki?FishBowl" target="_blank" title="Fish Bowl">Fish Bowl</a> — you can only comment on the discussion topic, if you are in the &#39;bowl&#39; — 4 chairs at the front. One chair is always kept empty, to allow anyone in the room to jump in with a question or share some relevant information. The &quot;fish&quot; in this photo are: <a href="https://twitter.com/Chris_Jeffery" target="_blank" title="Chris">Chris Jeffe</a><a href="https://twitter.com/Chris_Jeffery" target="_blank" title="Chris">ry</a>, <a href="https://twitter.com/mashooq" target="_blank" title="Mash">Mashooq Badar</a>, <a href="https://twitter.com/Steve_Hayes" target="_blank" title="Steve">Steve Hayes</a> but many people jumped in and out of our conversation. Here are some of the points that I found most interesting:</p>
+<p>Design is how we layout the code to make it easy to maintain. It may appear that there’s no external impact of software design and it&#39;s pretty intangibe how we evaluate one design over another. However, there are measurable external affects on staff retention, ease of change and developer mood. Corey Haines has been working on <a href="https://www.mercuryapp.com/" target="_blank" title="Mercury App">Mercury App</a>, a tool which can be used by a developer to track their mood over time.</p>
+<p><a href="https://twitter.com/tooky" target="_blank" title="Tooky">Steve Tooke</a> mentioned <a href="https://twitter.com/sandimetz" target="_blank" title="Sandi Metz">Sandi Metz</a>&#39;s <a href="http://josericardo.eti.br/2011/09/18/less-path-design-sandi-metz-goruco-2001/" target="_blank" title="TRUE">TRUE</a> criteria for design judgement</p>
+<ul>
+<li><em><strong>T</strong>ransparent </em></li>
+<li><em><strong>R</strong>easonable </em></li>
+<li><em><strong>U</strong>sable </em></li>
+<li><em><strong>E</strong>xemplary</em><a class="asset-img-link" href="http://agilecoach.typepad.com/.a/6a00e54ee21bf2883401a3fd26b229970b-pi" style="float: right;"><img alt="Measure" class="asset  asset-image at-xid-6a00e54ee21bf2883401a3fd26b229970b img-responsive" src="http://agilecoach.typepad.com/.a/6a00e54ee21bf2883401a3fd26b229970b-320wi" style="margin: 0px 0px 5px 5px;" title="Measure" /></a></li>
+</ul>
+<p>We talked about designing for use and as developers are primary users of our code perhaps we should think more about the developers who come after us. <a href="http://www.exampler.com/ease-and-joy.html" target="_blank" title="Brian Marick on Joy">Brian Ma</a><a href="http://www.exampler.com/ease-and-joy.html" target="_blank" title="Brian Marick on Joy">rick</a> has summarised good code as that which brings <strong>joy</strong> to those who come after (users and programmers). Maybe we can aspire to bring joy to developers who read our code months or years after we write it! We could apply techniques from UX practitioners to start measuring accessibility and navigability of our codebases. We could use our findings to identify worst pain points, bringing focus to our cleanup attempts and measure whether working conditions have improved through user testing. <a href="https://twitter.com/dmitrykandalov" target="_blank" title="Dmitry Kandalov">Dmitry</a> urged us to &quot;Track everything that developers do!&quot;</p>
+<p>And <a href="https://twitter.com/annajayne" target="_blank" title="Anna Jayne">Anna Jayne</a> added via #SoCraTesUK twitter stream that we already sort of do in <a href="http://www.osnews.com/story/19266/WTFs_m" target="_blank" title="WTF per min">WTFs per min</a>!</p>
+<p>All this reminded me that I had some similar thoughts about measuring DX last year. My fascination for maps took me to London’s Design Museum to hear a talk by cognitive psychologist, Maxwell Roberts, who has been measuring the <a href="http://now-here-this.timeout.com/2013/02/18/going-deeper-underground-max-roberts-discusses-the-future-of-the-tube-map-at-designmuseum/" target="_blank" title="Future of the tube map">effectiveness of different layouts of underground maps</a>. I thought the same approach might be used to assess the accessibility of different software designs/architectures, sort of UX from a programmer perspective. <br /><br />I also heard at SoCraTes that DX of API’s is already being tested see this <a href="http://blog.pamelafox.org/2011/04/what-makes-good-developer-experience.html" target="_blank" title="What Makes Good DX">post</a> from Pamela Fox and Jeremiah Lee has also run some workshops on <a href="http://dx.jeremiahlee.com/" target="_blank" title="The UX of API&#39;s">DX</a> at SXSW and Fluent conf<br /><br />At the Design Museum, Maxwell talked about &quot;information pollution&quot; and how we want to reduce cognitive load for users in processing what they see in front of them. It also helps if a map doesn&#39;t significantly conflict with their mental model of the actual topography of the city. Clearly cognitive load must be a big factor in understanding the software design, as we try to figure out where to insert behaviours into a software system. Although we try to use meaningful names to help make code self-explanatory perhaps when a developer is confronted train wreck of long names in a literal programming style iit actually makes it harder to see the structure than using shorter names. We could test this kind of thing using DX. <br /><br />Also the comparison of a underground map and city topography (people find London underground map easier when the Thames river is shown) might be similar to the software architecture/metaphor matching to real-world domain.<br /><br />Maxwell&#39;s point was that people often use same design rules without thinking about whether they are the best possible for the problem. He&#39;s a proponent of a UX technique - <strong>Evidence Based Information Design</strong> and has been doing testing of different underground map designs for the same city (octolinear/hexalinear vs curves, etc). He takes objective measures: how long does it take a user to do X? Where X might be station finding or journey planning. He also takes subjective measures: how to users rate the map? which map would they choose?<br /><br />His findings are interesting. Subjective measures on aesthetics don&#39;t correlate with which map is quicker to use. People like designs which seem familiar even though tests show that other designs are quicker to navigate. I thought of how conventional/familiar coding styles put developers at ease even though actual design may be a bad fit for a problem.<br /><br />His design principles for maps were:</p>
+<ul>
+<li>Simplicity</li>
+<li>Coherence (shape/structure)</li>
+<li>Balance</li>
+<li>Harmony</li>
+<li>Topography alignment</li>
+<li>Reduce supplementaty info</li>
+</ul>
+<p>When we create maps we want to map topography and reveal structure but we may need to discard current conventions to do so. We should beware following tradition without theory about why it&#39;s being applied to this particular problem. For underground maps, people are too hooked on octolinear style (following early success of London underground map in 1930&#39;s) but other styles are better for different city geographies. Perhaps in software development we are too used to OOD conventions to see that this can obscure design.<br /><br />One of the last points made in our discussion at SoCraTes is one from <a href="http://en.wikipedia.org/wiki/Christopher_Alexander" target="_blank" title="Christopher Alexander">Christopher Alexander</a>, whose work on architectural patterns inspired many software developers to mine design patterns for software. Apparently Alexander’s advice to the software community at an OOPSLA conference was <em>“Don’t extract the humanity”</em> and perhaps by starting to test DX this could be a start of putting developers to the forefront of evaluating good design practice. Let’s try to write better code for the developer who comes after us by testing developer reactions now.<br /><br /><br /></p>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+          <li>
+            <a href="https://twitter.com/rachelcdavies">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">rachelcdavies</span>
+            </a>
+          </li>
+          
+
+
+          
+          <li>
+            <a href="https://github.com/rachelcdavies">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">rachelcdavies</span>
+            </a>
+          </li>
+          
+
+          
+
+          
+
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

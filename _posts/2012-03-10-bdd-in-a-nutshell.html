@@ -1,0 +1,46 @@
+---
+layout: post
+title: BDD in a Nutshell
+published: 1
+categories:
+---
+<p>On Friday I was talking to Katie, she works in a department where teams are trying to apply Behaviour-Driven Development (BDD). She hasn&#39;t been on <a href="http://blog.mattwynne.net/" target="_blank" title="Matt Wynne">Matt Wynne</a>&#39;s BDD training workshop yet and is looking for some background reading to explain what it&#39;s all about. So I&#39;ve put together this blog to explain what BDD is and pull together some links for further reading.<br /><br /><strong>What is BDD?</strong></p>
+<p>The B in BDD stands for Behaviour, the desired <em>behaviour</em> of the software to be developed. The DD part stands for Driven-Development. BDD is an approach for building a shared understanding on what software to build by working through examples. <br /><br />I&#39;ve drawn this basic sketch to illustrate the basic idea.</p>
+<p><a href="http://agilecoach.typepad.com/.a/6a00e54ee21bf28834016302ae39ee970d-pi" style="display: inline;"><img alt="IMG_2654" border="0" class="asset  asset-image at-xid-6a00e54ee21bf28834016302ae39ee970d image-full" src="http://agilecoach.typepad.com/.a/6a00e54ee21bf28834016302ae39ee970d-800wi" title="IMG_2654" /></a></p>
+<p>BDD is pretty simple, describe what you want the system to do by talking through example behaviour.Work from the outside-in to implement those behaviours using the examples to validate you&#39;re what you&#39;re building.</p>
+<p>You don&#39;t have to bring the whole team together but it helps to get different perspectives to flesh out the examples. The customer (who may be a Scrum Product Owner) describes what they want and the developers ask questions to flesh out enough detail about the behaviour to be able to implement it. If you have business analyst or quality assurance specialists then they can help tease out details of different scenarios. <br /><br /><strong>Like TDD but more</strong><br /><br />The examples are often turned into automated tests and BDD practice follows the same basic idea as Acceptance Test-Driven Development, where acceptance tests are elaborated for each user story and automated as the software is built. Matt Wynne says <em>&quot;BDD is basically TDD done properly.&quot;</em><br />&#0160;<br />BDD is <strong>more than TDD</strong> because it focuses on collaborating with business people. <a href="http://dannorth.net/" target="_blank" title="Dan North">Dan North</a>, who originated the BDD moniker, noticed that business people switched off in conversations about &quot;tests&quot; as these seem to be too technical. He hoped that framing conversations about &quot;behaviours&quot; would be a way to engage the whole team.<br /><br /><strong>Ubiquitous Language</strong><br /><br />To make sure that the whole team understand what&#39;s wanted, we describe the behaviour in non-technical language. We&#39;re careful to use names that reflect the <em>ubiquitous language</em> used by business people, a basic principles of <a href="http://www.amazon.com/exec/obidos/ASIN/0321125215/" target="_blank" title="Domain-Driven Design book ">Domain-Driven Design</a> as explained by Eric Evans and summarised in <a href="http://www.infoq.com/minibooks/domain-driven-design-quickly" target="_blank" title="Domain Driven Design eBook">Domain-Driven Design Quickly</a>.<br /><br />Ultimately BDD is about building a shared understanding, <strong>you&#39;re doing BDD wrong if the only people who read the examples are the developers</strong>. I have seem this implementation in a few places, see pic below. BDD is much more than a way of automating tests and if that&#39;s all you have in mind then a unit-test framework might given you a faster suite of tests.</p>
+<p><a href="http://agilecoach.typepad.com/.a/6a00e54ee21bf288340168e8a7ee09970c-pi" style="display: inline;"><img alt="IMG_2655" border="0" class="asset  asset-image at-xid-6a00e54ee21bf288340168e8a7ee09970c image-full" src="http://agilecoach.typepad.com/.a/6a00e54ee21bf288340168e8a7ee09970c-800wi" title="IMG_2655" /></a><br /><br /><br /><strong>Inspirations of BDD</strong><br /><br />BDD was originated by practitioners of <a href="http://c2.com/cgi/wiki?ExtremeProgramming" target="_blank" title="eXtreme Programming on C2 wiki">eXtreme Programming</a> (XP) who were looking for a way to involve all perspectives (including BA and QA) in conversations about what to build. <br /><br />Much credit has to go to Ward Cunningham, inventor of the wiki and many XP practices, who in 2003 developed a testing framework called <a href="http://fit.c2.com/" target="_blank" title="Framework for Integrated Tests">FIT</a> that enabled business people to specify tests in tables using spreadsheets. Around the same time, Brian Marick, was writing about <a href="http://www.exampler.com/old-blog/2003/08/22/#agile-testing-project-2" target="_blank" title="Brian Marick&#39;s blog">expressing tests as examples</a>.</p>
+<p>Tooling to support BDD evolved initially in <a href="http://jbehave.org/" target="_blank" title="JBehave">JBehave</a> with <a href="http://lunivore.com/" target="_blank" title="Liz Keogh">Liz Keogh</a> as an active contributor and later with <a href="http://cukes.info/" target="_self" title="Cucumber">Cucumber</a>.<br /><br /><strong>What BDD is not</strong></p>
+<p>BDD is about figuring out what to build that helps flesh out behaviour. BDD isn&#39;t an Agile framework or project management approach. Teams using Scrum or Kanban with BDD will need to figure out what to put in their backlogs and boards for planning purposes. You might want to measure the number of BDD scenarios delivered instead of velocity but often these scenarios are too fine-grain for release planning purposes.<br /><br /><strong>Further Reading</strong></p>
+<p>Websites:</p>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Behavior_Driven_Development" target="_blank" title="BDD on wikipedia">Wikipedia </a></li>
+</ul>
+<ul>
+<li><a href="http://behaviour-driven.org/" target="_blank" title="http://behaviour-driven.org/">http://behaviour-driven.org/</a></li>
+</ul>
+<ul>
+<li><a href="http://dannorth.net/introducing-bdd/" target="_blank" title="Dan North on Introducing BDD">http://dannorth.net/introducing-bdd/</a></li>
+</ul>
+<p>Books:</p>
+<ul>
+<li><a href="http://pragprog.com/book/hwcuc/the-cucumber-book" target="_blank" title="Cucumber book">&quot;The Cucumber Book:Behaviour-Driven Development for Testers and Developers&quot;</a> Matt Wynne and Aslak Hellesøy </li>
+</ul>
+<ul>
+<li><a href="http://manning.com/adzic/" target="_blank" title="Specification by Example book">&quot;Specification By Example: How Successful Teams Deliver the Right Software&quot;</a> by Gojko Adzic</li>
+</ul>
+<ul>
+<li><a href="http://www.amazon.com/Fit-Developing-Software-Framework-Integrated/dp/0321269349/" target="_blank" title="FIT book">&quot;Fit for Developing Software: Framework for Integrated Tests&quot;</a> by Rick Mugridge and Ward Cunningham </li>
+</ul>
+<ul>
+<li><a href="http://pragprog.com/book/achbd/the-rspec-book" target="_blank" title="RSpec Book">&quot;The RSpec Book: Behaviour-Driven Development with RSpec, Cucumber, and Friends&quot;</a> by David Chelimsky, Dave Astels, Zach Dennis, Aslak Hellesøy, Bryan Helmkamp, Dan North</li>
+</ul>
+<p>Articles:</p>
+<ul>
+<li><a href="http://www.infoq.com/articles/virtual-panel-bdd" target="_blank" title="Virtual Panel">Virtual Panel: Specification by Example, Executable Specifications, Scenarios and Feature Injection</a></li>
+<li><a href="http://manage.techwell.com/articles/weekly/three-amigos" target="_blank" title="Three Amigos">The Three Amigos</a></li>
+</ul>
+<ul>
+</ul>
+<p>Please add comments to point to further resources. Thanks!<br /><br /><br /></p>
+
