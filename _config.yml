@@ -12,3 +12,7 @@ exclude: ["Gemfile", "Gemfile.lock", "README.md"] # files to exclude
 
 # Build settings
 markdown: kramdown
+
+collections:
+- events
+
