@@ -6,9 +6,36 @@
 </description>
     <link>http://rachelcdavies.github.io/</link>
     <atom:link href="http://rachelcdavies.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 17 Feb 2015 21:08:44 +0000</pubDate>
-    <lastBuildDate>Tue, 17 Feb 2015 21:08:44 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Feb 2015 22:05:33 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Feb 2015 22:05:33 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Moving from Typepad to Jekyll</title>
+        <description>&lt;p&gt;I recently migrated this website from Typepad to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github pages&lt;/a&gt; using &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. Here are some of the reasons why and some tips on getting started with Jekyll.&lt;/p&gt;
+
+&lt;p&gt;My main reason for moving away from Typepad is to simplify the layout of my blog. I’m no longer in the consulting game and also wish to retire my ancient website – thrown together in PHP one rainy Sunday more than 10 years ago! Nowadays, I’d like a simple website around my blog with as little hassle required polishing posts. When both these moves are complete, I’ll also save a few pennies on hosting costs.&lt;/p&gt;
+
+&lt;p&gt;My usual pattern is to write my blog posts as plain text files while I’m offline on the train to London. I was used to pushing these into Typepad when I  eventually got online. One of the fiddly bits in moving from a plain text draft was positioning photos with related text using Typepad platform. I was attracted to Jekyll as it enables me to edit pages on my laptop using a basic text editor and check what they look like by running locally before pushing them to &lt;a href=&quot;https://github.com/rachelcdavies&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I already had a GitHub account so getting started with &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github pages&lt;/a&gt; was straightforward. Next I downloaded &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; which has plenty of helpful documentation. I exported my posts from Typepad and ran &lt;a href=&quot;https://github.com/dams/typepad_to_jekyll&quot;&gt;typepad_to_jekyll&lt;/a&gt;. Now running locally, I could see that everything I’d written since 2004 was safely over!&lt;/p&gt;
+
+&lt;p&gt;I did a bit of tinkering with layout after reading some tips from &lt;a href=&quot;http://joshualande.com/jekyll-github-pages-poole/&quot;&gt;Joshua Lande&lt;/a&gt;. I decided not to enable comments as I’d like to move discussion over to &lt;a href=&quot;https://twitter.com/rachelcdavies&quot;&gt;Twitter&lt;/a&gt; so I’ve implemented his Twitter plug on my blog posts.&lt;/p&gt;
+
+&lt;p&gt;I also wanted an &lt;a href=&quot;http://rachelcdavies.github.io/events/&quot;&gt;Events&lt;/a&gt; page generated from simple markdown files listing name and link of event and was very happy how quick this was to put together. See snippet below.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% for event in site.events %}
+  {{ event.date | date: &amp;#39; %d %b %Y &amp;#39;}} &lt;span class=&quot;ni&quot;&gt;&amp;amp;raquo;&lt;/span&gt; [{{ event.title }}]({{ event.link }})
+{% endfor %}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;My new site is still work-in-progress, many photos embedded in old posts link to images on Typepad – I’ll be gradually trawling through to clean those up. The site also has rather a vanilla look to it for now. But I’m happy with my new site and definitely have a smoother workflow for new posts. Please alert me to any glitches you spot with it.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Jan 2015 16:18:09 +0000</pubDate>
+        <link>http://rachelcdavies.github.io/2015/01/05/typepad-to-jekyll.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2015/01/05/typepad-to-jekyll.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Beyond Coding</title>
@@ -293,19 +320,6 @@ our developers simply got stuck into disassembling desks and lifting floor tiles
         <pubDate>Wed, 09 Apr 2014 00:00:00 +0100</pubDate>
         <link>http://rachelcdavies.github.io/2014/04/09/calculating-velocity-faq.html</link>
         <guid isPermaLink="true">http://rachelcdavies.github.io/2014/04/09/calculating-velocity-faq.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Estimates Considered Useful</title>
-        <description>&lt;p&gt;Despite the current &lt;a href=&quot;http://www.infoq.com/interviews/zuill-mob-programming&quot; target=&quot;_blank&quot; title=&quot;NoEstimates&quot;&gt;#NoEstimates&lt;/a&gt; trend, at Unruly we still estimate our user stories. The way we do this is in small &lt;a href=&quot;http://agilecoach.typepad.com/agile-coaching/2013/10/evolving-estimation-process.html&quot; target=&quot;_blank&quot; title=&quot;evolving estimation process&quot;&gt;informal meetings&lt;/a&gt; in our development area. Why do we find this useful? Because estimates of development costs inform decisions on what to develop next.&lt;br /&gt;&lt;br /&gt;At Unruly our teams are all working on multiple product streams. We don’t have long-term project or release plans. We deploy features as soon as we can rather than to hit a release date. We agree the next set of priorities with our product stakeholders every few weeks. The team makes a proposal of what seem to be the most valuable stories to work on next and we also offer our stakeholders a list of alternative options as estimated stories. There’s a bit of shuffling in the meeting, which typically takes less that 30 mins. We are not making a commitment to deliver exactly those stories as something more important may come up.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;asset-img-link&quot; href=&quot;http://agilecoach.typepad.com/.a/6a00e54ee21bf2883401a511989dd6970c-pi&quot; style=&quot;float: left;&quot;&gt;&lt;img alt=&quot;Spam&quot; class=&quot;asset  asset-image at-xid-6a00e54ee21bf2883401a511989dd6970c img-responsive&quot; src=&quot;http://agilecoach.typepad.com/.a/6a00e54ee21bf2883401a511989dd6970c-320wi&quot; style=&quot;margin: 0px 5px 5px 0px;&quot; title=&quot;Spam&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;As we whittle down our proposed list of best value stories in the lead-up to story prioritisation with stakeholders, developers make two kinds of estimate. A rough “ballpark” given by a lone developer is used to figure out whether to bin the idea or do further investigation. A “full estimate” is given by the team when the developer investigating that story has gathered enough information to bring a proposal to the team. We only put full estimates on stories that are strong contenders to present to stakeholders for next iteration.&lt;br /&gt;&lt;br /&gt;I wonder if #NoEstimates approach is effective when there’s no significant value tradeoff being made around strands of work (sets of small user stories) and that we find estimates useful because we’re looking for the most valuable stories each time and development cost is a part of that. I think it’s because we’re in a #NoProjects context that we find estimates useful, I’d be interested to hear your thoughts on this.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 07 Apr 2014 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2014/04/07/estimates-considered-useful.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2014/04/07/estimates-considered-useful.html</guid>
         
         
       </item>

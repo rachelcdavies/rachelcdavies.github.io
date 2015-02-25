@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Thoughts on Agile Coaching</title>
+    <title>Moving from Typepad to Jekyll</title>
     <meta name="description" content="Thoughts on Agile Coaching
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rachelcdavies.github.io/">
+    <link rel="canonical" href="http://rachelcdavies.github.io/2015/01/05/typepad-to-jekyll.html">
 </head>
 
 
@@ -67,34 +67,38 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <ul class="post-list">
-    
-      <li>
-        <h1>
-	        Beyond Coding
-        </h1>
-        <span class="post-meta">17 Dec 2014</span>
-        <article class="post-content"><p>Software development on anything more than a pet projects is a collaborative activity. To enable a group of developers to make any headway, some details inevitably need to be hammered out together. However, you probably find that getting agreement within a group of opinionated developers can be difficult at the best of times. Most software developers haven&#39;t had training in &quot;soft skills&quot; and you may find it hard to know where to start when a difficult question needs to be thrashed out.</p>
-<p>Here are some pointers to areas that you might want to explore beyond the realm of programming languages, methods and frameworks.</p>
-<p>Facilitation is all about making conversations easier but even with a clear meeting purpose and agenda, you may find meetings can go around in circles without reaching consensus. To understand some approaches to making group decisions I recommend &quot;<a href="http://www.goodreads.com/book/show/927064.Facilitator_s_Guide_to_Participatory_Decision_Making" target="_blank" title="Facilitators Guide to Participatory Decision Making">Facilitator&#39;s Guide to Participatory Decision-Making</a>&quot; which introduces decision making rules. You can also get affordable hands-on training in facilitation from non-profit ICA-UK on <a href="http://www.ica-uk.org.uk/group-facilitation-methods/" target="_blank" title="Group Facilitation Methods">Group Facilitation Methods</a>.</p>
-<p>Another thing you can do to help meeting participants is to create visible agendas and capture points being discussed concisely. If you want to build more confidence with writing neatly on flipcharts and whiteboards, seek out a course in <a href="http://graphicsmadeeasy.co.uk/" target="_blank" title="graphic facilitation">graphic facilitation</a> where you can pick up tips and practice with other budding facilitators. To improve how you illustrate system dynamics in group discussions, start to practice drawing Diagrams of Effects. Peter Senge&#39;s book &quot;<a href="http://www.goodreads.com/book/show/255127.The_Fifth_Discipline" target="_blank" title="The Fifth Discipline">The Fifth Discipline</a>&quot; has a an excellent introduction to Systems Thinking and an handy set of system archetypes that you can use in different situations.</p>
-<p>There&#39;s an old joke: <em>What is the difference between a Methodologist and a Terrorist? You can negotiate with a terrorist!</em> When discussions get heated, it&#39;s&#0160; handy to know a little bit about negotiation techniques. The Harvard Negotiation Project have put out a few paperbacks and I recommend &quot;<a href="http://www.goodreads.com/book/show/22590500-getting-past-no" target="_blank" title="Getting Past No">Getting Past No: Negotiating With Difficult People</a>&quot; by Fisher and Ury. Another easy read around building trust is &quot;<a href="http://www.goodreads.com/book/show/873993.The_Trusted_Advisor" target="_blank" title="The Trusted Advisor">The Trusted Advisor</a>&quot; by Maister, Green and Galford.</p>
-<p>Lastly remember that we can improve communication in our teams by starting with ourselves and how we express our own opinions. A good place to start is &quot;<a href="http://www.goodreads.com/book/show/71730.Nonviolent_Communication" target="_blank" title="Nonviolent Communication">Nonviolent Communication</a>&quot; by Marshall Rosenberg. An older book that&#39;s worth getting hold of to get a different perspective on the way you share feedback is &quot;<a href="http://www.goodreads.com/book/show/2912931-what-did-you-say" target="_blank" title="The Art of Giving Feedback">The Art of Giving Feedback</a>&quot; by Charles Seashore and Gerald Weinberg.</p>
-<p>I hope these resources help you in situations where you need to go outside your comfort zone. Please do let me know if you have other recommended reading to share that goes beyond coding.</p>
+  <header class="post-header">
+    <h1 class="post-title">Moving from Typepad to Jekyll</h1>
+    <p class="post-meta">05 Jan 2015</p>
+  </header>
+  <article class="post-content"><p>I recently migrated this website from Typepad to <a href="https://pages.github.com/">Github pages</a> using <a href="http://jekyllrb.com/">Jekyll</a>. Here are some of the reasons why and some tips on getting started with Jekyll.</p>
 
+<p>My main reason for moving away from Typepad is to simplify the layout of my blog. I’m no longer in the consulting game and also wish to retire my ancient website – thrown together in PHP one rainy Sunday more than 10 years ago! Nowadays, I’d like a simple website around my blog with as little hassle required polishing posts. When both these moves are complete, I’ll also save a few pennies on hosting costs.</p>
+
+<p>My usual pattern is to write my blog posts as plain text files while I’m offline on the train to London. I was used to pushing these into Typepad when I  eventually got online. One of the fiddly bits in moving from a plain text draft was positioning photos with related text using Typepad platform. I was attracted to Jekyll as it enables me to edit pages on my laptop using a basic text editor and check what they look like by running locally before pushing them to <a href="https://github.com/rachelcdavies">GitHub</a>.</p>
+
+<p>I already had a GitHub account so getting started with <a href="https://pages.github.com/">Github pages</a> was straightforward. Next I downloaded <a href="http://jekyllrb.com/">Jekyll</a> which has plenty of helpful documentation. I exported my posts from Typepad and ran <a href="https://github.com/dams/typepad_to_jekyll">typepad_to_jekyll</a>. Now running locally, I could see that everything I’d written since 2004 was safely over!</p>
+
+<p>I did a bit of tinkering with layout after reading some tips from <a href="http://joshualande.com/jekyll-github-pages-poole/">Joshua Lande</a>. I decided not to enable comments as I’d like to move discussion over to <a href="https://twitter.com/rachelcdavies">Twitter</a> so I’ve implemented his Twitter plug on my blog posts.</p>
+
+<p>I also wanted an <a href="http://rachelcdavies.github.io/events/">Events</a> page generated from simple markdown files listing name and link of event and was very happy how quick this was to put together. See snippet below.</p>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html">{% for event in site.events %}
+  {{ event.date | date: &#39; %d %b %Y &#39;}} <span class="ni">&amp;raquo;</span> [{{ event.title }}]({{ event.link }})
+{% endfor %}</code></pre></div>
+
+<p>My new site is still work-in-progress, many photos embedded in old posts link to images on Typepad – I’ll be gradually trawling through to clean those up. The site also has rather a vanilla look to it for now. But I’m happy with my new site and definitely have a smoother workflow for new posts. Please alert me to any glitches you spot with it.</p>
 </article>
-        If you liked this post, you can
-<a href="https://twitter.com/intent/tweet?url=http://rachelcdavies.github.io/index.html&text=&via=rachelcdavies" 
+    If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?text=Moving from Typepad to Jekyll&url=http://rachelcdavies.github.io/2015/01/05/typepad-to-jekyll.html&via=rachelcdavies" 
    target="_blank">
   share it with your followers</a> 
 or 
 <a href="https://twitter.com/rachelcdavies">
   follow me on Twitter</a>!
-      </li>
-    
-  </ul>
+
 </div>
 
       </div>
