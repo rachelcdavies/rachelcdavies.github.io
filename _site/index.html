@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Events</title>
+    <title>Thoughts on Agile Coaching</title>
     <meta name="description" content="Thoughts on Agile Coaching
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rachelcdavies.github.io/events/">
+    <link rel="canonical" href="http://rachelcdavies.github.io/">
 </head>
 
 
@@ -67,32 +67,34 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="post">
+        <div class="home">
 
-  <header class="post-header">
-    <h1 class="post-title">Events</h1>
-  </header>
+  <ul class="post-list">
+    
+      <li>
+        <h1>Moving from Typepad to Jekyll</h1>
+        <span class="post-meta">05 Jan 2015</span>
+        <article class="post-content"><p>I recently migrated this website from Typepad to <a href="https://pages.github.com/">Github pages</a> using <a href="http://jekyllrb.com/">Jekyll</a>. Here are some of the reasons why and some tips on getting started with Jekyll.</p>
 
-  <article class="post-content">
-    <p>I’ll be presenting at these upcoming industry conferences and meetups.</p>
+<p>My main reason for moving away from Typepad is to simplify the layout of my blog. I’m no longer in the consulting game and also wish to retire my ancient website – thrown together in PHP one rainy Sunday more than 10 years ago! Nowadays, I’d like a simple website around my blog with as little hassle required polishing posts. When both these moves are complete, I’ll also save a few pennies on hosting costs.</p>
 
-<p>11 Mar 2015  » <a href="http://www.meetup.com/ACE-Agile-Coaching-Exchange/events/219636972/">Agile Coaching Exchange in London</a></p>
+<p>My usual pattern is to write my blog posts as plain text files while I’m offline on the train to London. I was used to pushing these into Typepad when I  eventually got online. One of the fiddly bits in moving from a plain text draft was positioning photos with related text using Typepad platform. I was attracted to Jekyll as it enables me to edit pages on my laptop using a basic text editor and check what they look like by running locally before pushing them to <a href="https://github.com/rachelcdavies">GitHub</a>.</p>
 
-<p>19 Mar 2015  » <a href="http://www.agiletestingday.nl/program-2015/continuous-testing/">Keynote speaker at Agile Testing Day Netherlands</a></p>
+<p>I already had a GitHub account so getting started with <a href="https://pages.github.com/">Github pages</a> was straightforward. Next I downloaded <a href="http://jekyllrb.com/">Jekyll</a> which has plenty of helpful documentation. I exported my posts from Typepad and ran <a href="https://github.com/dams/typepad_to_jekyll">typepad_to_jekyll</a>. Now running locally, I could see that everything I’d written since 2004 was safely over!</p>
 
-<p>27 Mar 2015  » <a href="https://skillsmatter.com/conferences/6332-cukeup-2015#program">Keynote speaker at CukeUp! in London</a></p>
+<p>I did a bit of tinkering with layout after reading some tips from <a href="http://joshualande.com/jekyll-github-pages-poole/">Joshua Lande</a>. I decided not to enable comments as I’d like to move discussion over to <a href="https://twitter.com/rachelcdavies">Twitter</a> so I’ve implemented his Twitter plug on my blog posts.</p>
 
-<p>23 Apr 2015  » <a href="http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#building_learning_into_team_life">Workshop at ACCU conference in Bristol</a></p>
+<p>I also wanted an <a href="http://rachelcdavies.github.io/events/">Events</a> page generated from simple markdown files listing name and link of event and was very happy how quick this was to put together. See snippet below.</p>
 
-<p>07 May 2015  » <a href="http://agilemanchester.net/2015/programme/#dayone">Talk at Agile Manchester conference</a></p>
+<div class="highlight"><pre><code class="language-html" data-lang="html">{% for event in site.events %}
+  {{ event.date | date: &#39; %d %b %Y &#39;}} <span class="ni">&amp;raquo;</span> [{{ event.title }}]({{ event.link }})
+{% endfor %}</code></pre></div>
 
-<p>15 May 2015  » <a href="http://thebigdo.dopm.co.uk/">Coaching workshop at The Big DO in Oxford</a></p>
-
-<p>04 Jun 2015  » <a href="http://socratesuk.org/">Open Space facilitator at SoCraTes UK</a></p>
-
-
-  </article>
-
+<p>My new site is still work-in-progress, many photos embedded in old posts link to images on Typepad – I’ll be gradually trawling through to clean those up. The site also has rather a vanilla look to it for now. But I’m happy with my new site and definitely have a smoother workflow for new posts. Please alert me to any glitches you spot with it.</p>
+</article>
+      </li>
+    
+  </ul>
 </div>
 
       </div>
