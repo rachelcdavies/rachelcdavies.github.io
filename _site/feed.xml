@@ -6,9 +6,37 @@
 </description>
     <link>http://rachelcdavies.github.io/</link>
     <atom:link href="http://rachelcdavies.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 29 Mar 2015 13:20:15 +0100</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2015 13:20:15 +0100</lastBuildDate>
+    <pubDate>Fri, 17 Apr 2015 12:26:34 +0100</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2015 12:26:34 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Modern XP, Join The Mob</title>
+        <description>&lt;p&gt;The classic “Extreme Programming Explained” encourages us to embrace change and turn up the dials on good practice. But so much has changed in industry since the white book came out; descriptions of how work was done at Chrysler in the 90’s almost sound archaic to the next generation of software developers. Although XP is not mainstream, we have an active community evolving XP practice work guided by XP values and principles. I’d like to make it easier for developers to find out what it means to practice modern XP.&lt;/p&gt;
+
+&lt;p&gt;Paired programming is still the most controversial practice of XP. The benefits to any developer who has tried it are clear. Pairing helps retain focus on the task at hand while maintaining discipline on our approach to coding. Rotating partners fluidly on a team builds collective code ownership and shares knowledge across a team. The result is that all team members feel confident to change any part of the code. Yes, pair programming can be &lt;a href=&quot;http://codurance.com/2015/03/15/rethinking-pair-programming/]&quot;&gt;intense&lt;/a&gt; but there are plenty of other activities that members of an XP team attend to – if pair programming feels like a constant grind, you are doing it wrong!&lt;/p&gt;
+
+&lt;p&gt;As extreme programmers, we can turn up the dials on this collaborative programming and make it even more fun. Anyone who has sat with an XP team will notice that pairing often expands to tripling when a pair is wrestling with a tricky problem. &lt;a href=&quot;http://www.mobprogramming.org&quot;&gt;Mob Programming&lt;/a&gt; is the deliberate choice to work together as a team on a single story. I’m not talking about “swarming” where more than one pair works in parallel on the same story. Mobbing is where the whole team writes production code on a single machine.&lt;/p&gt;
+
+&lt;p&gt;Mobbing enables everyone on the team to get their head around a challenging problem and share their ideas on how to solve it. Although teams at &lt;a href=&quot;http://tech.unruly.co/&quot;&gt;Unruly&lt;/a&gt; initially planned mobbing by declaring “Mob Fridays” and later “Mob Mondays”, anchoring mobbing to a particular day of the week doesn’t work out that well. Mob programming is most useful on more challenging tasks that are complex enough to engage the minds of the whole team. If we wait to mob until Friday, the meaty work may already be done and more mundane tasks may be the most valuable to deliver that day – no one enjoys being in a bored mob.&lt;/p&gt;
+
+&lt;p&gt;Now our teams decide whether to mob or pair when considering what to work on at morning standup. We pair on smaller pieces of work that will likely be delivered in a single day. We tend to mob when we’re starting work on more critical code that everyone will need to maintain. In addition to developing production code, we usually have a bunch of other work to do - researching upcoming product features, helping our users apply our products to upcoming campaigns, and improving our knowledge of technical solutions available. For less critical code, we may run a “mini-mob” where 3 or 4 developers run a shorter mobbing session leaving remaining developers available to work on other tasks.&lt;/p&gt;
+
+&lt;p&gt;Practical aspects of our mob setup are different to other companies like &lt;a href=&quot;https://www.youtube.com/watch?v=p_pvslS4gEI&quot;&gt;Hunter Industries&lt;/a&gt; and &lt;a href=&quot;http://archive.vector.org.uk/art10501360&quot;&gt;Ericsson&lt;/a&gt;. We mob in an open plan workspace shared by 3 teams, see photos below. Each team has one large high-resolution screen, which can be used for mob sessions. The team places another screen to the side and that’s where the driver sits to write code. The team uses a timer to run “randori” style rotation, every 10 mins a developer switches into the driving seat. We have noticed that a developer can duck out of a mob session to attend to an interruption then quickly get back into the flow with very little disruption to the mob.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/ChutMob.jpg&quot; alt=&quot;Chutney Mob&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a coach, I notice that mob programming helps us remember how important it is to keep our test runs and deployments fast – we don’t want to have a whole team of developers waiting around for the tests to eventually pass. Developers quickly enjoy mobbing, as they start cracking the problems in hand, deploying as they go. Mobs can get noisy for surrounding teams but that’s generally fine, we’re used to pairing in an open workspace. A team that’s mobbing needs to take care not to get too carried away with the fun of working as a group. It helps to have breakout sessions around a whiteboard to discuss where the mob is headed so everyone has a clear picture of what they’re working towards. In our space, the whiteboard-on-wheels also acts as a baffle to reduce noisy chatter leaking out.&lt;/p&gt;
+
+&lt;p&gt;I’ll be giving a presentation about how our teams approach Mobbing at &lt;a href=&quot;http://www.meetup.com/Bristol-Girl-Geek-Dinners/events/221328972/&quot;&gt;Bristol Girl Geeks&lt;/a&gt; next week and &lt;a href=&quot;http://probablyfine.co.uk/&quot;&gt;Alex Wilson&lt;/a&gt; will be presenting his more in-depth experience report on Mob Programming at XP2015 conference in Finland in May. I also plan more posts here on modern XP practice. If you’d like to share how XP practice has evolved in your team then please do get in touch as we are on the look out for talks and demos for &lt;a href=&quot;http://tech.unruly.co/events.html&quot;&gt;Extreme Programmers London&lt;/a&gt; meetup.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 15 Apr 2015 00:00:00 +0100</pubDate>
+        <link>http://rachelcdavies.github.io/2015/04/15/mob-programming.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2015/04/15/mob-programming.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Moving from Typepad to Jekyll</title>
@@ -295,31 +323,6 @@ our developers simply got stuck into disassembling desks and lifting floor tiles
         <pubDate>Thu, 17 Apr 2014 00:00:00 +0100</pubDate>
         <link>http://rachelcdavies.github.io/2014/04/17/no-magic-words.html</link>
         <guid isPermaLink="true">http://rachelcdavies.github.io/2014/04/17/no-magic-words.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Calculating Velocity FAQ</title>
-        <description>&lt;p&gt;Sometimes people get confused about velocity and edge cases of what gets counted or not. It doesn&amp;#39;t matter greatly except it helps to do this consistently over time. I wrote a FAQ for our teams because these edge cases come up infrequently and developers often don&amp;#39;t remember what rule to apply. I&amp;#39;m sharing a slightly&amp;#0160;abbreviated version of our Velocity FAQ as an illustration of working agreements around this. Your team might choose to do this differently and that&amp;#39;s okay.&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;The purpose of this FAQ is to clear up any confusion about counting team velocity before story prioritisation. &amp;#0160;We average our velocity over past 3 iterations to level things out. Also we make adjustments if we know that team members will be on holiday during the next iteration.&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;1) Should I partially count a story if we did some work on it but it hasn’t been finished?&amp;#0160;&lt;strong&gt;No&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;2) Should I count a story if the code is all live but we haven’t had the story approved by stakeholders or sent out the release email?&amp;#0160;&lt;strong&gt;No because sometimes more work is discovered through doing this.&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;3) If we extended or shortened the iteration should I adjust the velocity to match the usual iteration length?&amp;#0160;&lt;strong&gt;Yes&lt;/strong&gt;.&amp;#0160;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;4) If the story was signed off and complete and then later we discover it has problems, Should we add another story for the extra work to fix it?&amp;#0160;&lt;strong&gt;No. If the implementation has a bug or we broke or clearly failed to deliver on the story we will fix it without an additional story, even if it was accidentally signed off.&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;5) My stakeholder says that she really wanted something extra than the story we’ve developed. Do we expand the story to do the extra things?&amp;#0160;&lt;strong&gt;No, this can be a new story if wasn’t agreed with other stakeholders. It helps to note the acceptance criteria clearly in the story and check them with stakeholders before starting work on development.&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;6) We had to do some story work in an iteration that wasn&amp;#39;t planned in because the story was not finished from a previous iteration (due to any reason including dependency on other team). What do we do?&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;Step 1: Send stakeholder email or let them know in planning that this is happening and may impact stories currently lined up for current iteration.&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;Step 2: Fix the problem and then count the full estimate of the original story when its finished in the current iteration&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Do not create an extra story for the remainder of the work and estimate it as extra work as this will result in artificially inflating the velocity.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;7) We did an extra piece of work it took about 2 points worth, it was never planned in or estimated can I count it now because we did do it?&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;No. New pieces of work even if they come up mid-iteration, even if they are ultra urgent and should be done immediately should always be discussed, broken down and estimated BEFORE we start work on it. We need to warn stakeholders we are putting it in. So this situation should never ever arise that you only estimate a story after you completed it! If it does happen you should not count it. and discuss what went wrong in the process.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 09 Apr 2014 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2014/04/09/calculating-velocity-faq.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2014/04/09/calculating-velocity-faq.html</guid>
         
         
       </item>
