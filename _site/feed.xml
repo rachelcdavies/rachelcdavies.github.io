@@ -6,8 +6,8 @@
 </description>
     <link>http://rachelcdavies.github.io/</link>
     <atom:link href="http://rachelcdavies.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Apr 2015 12:34:22 +0100</pubDate>
-    <lastBuildDate>Fri, 17 Apr 2015 12:34:22 +0100</lastBuildDate>
+    <pubDate>Fri, 17 Apr 2015 12:36:12 +0100</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2015 12:36:12 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -24,7 +24,7 @@
 
 &lt;p&gt;Practical aspects of our mob setup are different to other companies like &lt;a href=&quot;https://www.youtube.com/watch?v=p_pvslS4gEI&quot;&gt;Hunter Industries&lt;/a&gt; and &lt;a href=&quot;http://archive.vector.org.uk/art10501360&quot;&gt;Ericsson&lt;/a&gt;. We mob in an open plan workspace shared by 3 teams, see photos below. Each team has one large high-resolution screen, which can be used for mob sessions. The team places another screen to the side and that’s where the driver sits to write code. The team uses a timer to run “randori” style rotation, every 10 mins a developer switches into the driving seat. We have noticed that a developer can duck out of a mob session to attend to an interruption then quickly get back into the flow with very little disruption to the mob.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/ChutMob.jpg&quot; alt=&quot;Chutney Mob&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://rachelcdavies.github.io/images/ChutMob.jpg&quot; alt=&quot;Chutney Mob&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As a coach, I notice that mob programming helps us remember how important it is to keep our test runs and deployments fast – we don’t want to have a whole team of developers waiting around for the tests to eventually pass. Developers quickly enjoy mobbing, as they start cracking the problems in hand, deploying as they go. Mobs can get noisy for surrounding teams but that’s generally fine, we’re used to pairing in an open workspace. A team that’s mobbing needs to take care not to get too carried away with the fun of working as a group. It helps to have breakout sessions around a whiteboard to discuss where the mob is headed so everyone has a clear picture of what they’re working towards. In our space, the whiteboard-on-wheels also acts as a baffle to reduce noisy chatter leaking out.&lt;/p&gt;
 

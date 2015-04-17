@@ -16,7 +16,7 @@ Now our teams decide whether to mob or pair when considering what to work on at 
 
 Practical aspects of our mob setup are different to other companies like [Hunter Industries](https://www.youtube.com/watch?v=p_pvslS4gEI) and [Ericsson](http://archive.vector.org.uk/art10501360). We mob in an open plan workspace shared by 3 teams, see photos below. Each team has one large high-resolution screen, which can be used for mob sessions. The team places another screen to the side and that's where the driver sits to write code. The team uses a timer to run "randori" style rotation, every 10 mins a developer switches into the driving seat. We have noticed that a developer can duck out of a mob session to attend to an interruption then quickly get back into the flow with very little disruption to the mob.
 
-![Chutney Mob](images/ChutMob.jpg)
+![Chutney Mob](http://rachelcdavies.github.io/images/ChutMob.jpg)
 
 As a coach, I notice that mob programming helps us remember how important it is to keep our test runs and deployments fast -- we don't want to have a whole team of developers waiting around for the tests to eventually pass. Developers quickly enjoy mobbing, as they start cracking the problems in hand, deploying as they go. Mobs can get noisy for surrounding teams but that's generally fine, we're used to pairing in an open workspace. A team that's mobbing needs to take care not to get too carried away with the fun of working as a group. It helps to have breakout sessions around a whiteboard to discuss where the mob is headed so everyone has a clear picture of what they're working towards. In our space, the whiteboard-on-wheels also acts as a baffle to reduce noisy chatter leaking out.
 
