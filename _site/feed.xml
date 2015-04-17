@@ -6,15 +6,15 @@
 </description>
     <link>http://rachelcdavies.github.io/</link>
     <atom:link href="http://rachelcdavies.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Apr 2015 13:23:18 +0100</pubDate>
-    <lastBuildDate>Fri, 17 Apr 2015 13:23:18 +0100</lastBuildDate>
+    <pubDate>Fri, 17 Apr 2015 15:18:39 +0100</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2015 15:18:39 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Modern XP, Join The Mob</title>
         <description>&lt;p&gt;The classic “Extreme Programming Explained” encourages us to embrace change and turn up the dials on good practice. But so much has changed in industry since the white book came out; descriptions of how work was done at Chrysler in the 90’s almost sound archaic to the next generation of software developers. Although XP is not mainstream, we have an active community evolving XP practice work guided by XP values and principles. I’d like to make it easier for developers to find out what it means to practice modern XP.&lt;/p&gt;
 
-&lt;p&gt;Paired programming is still the most controversial practice of XP. The benefits to any developer who has tried it are clear. Pairing helps retain focus on the task at hand while maintaining discipline on our approach to coding. Rotating partners fluidly on a team builds collective code ownership and shares knowledge across a team. The result is that all team members feel confident to change any part of the code. Yes, pair programming can be &lt;a href=&quot;http://codurance.com/2015/03/15/rethinking-pair-programming/]&quot;&gt;intense&lt;/a&gt; but there are plenty of other activities that members of an XP team attend to – if pair programming feels like a constant grind, you are doing it wrong!&lt;/p&gt;
+&lt;p&gt;Paired programming is still the most controversial practice of XP. The benefits to any developer who has tried it are clear. Pairing helps retain focus on the task at hand while maintaining discipline on our approach to coding. Rotating partners fluidly on a team builds collective code ownership and shares knowledge across a team. The result is that all team members feel confident to change any part of the code. Yes, pair programming can be &lt;a href=&quot;http://codurance.com/2015/03/15/rethinking-pair-programming/&quot;&gt;intense&lt;/a&gt; but there are plenty of other activities that members of an XP team attend to – if pair programming feels like a constant grind, you are doing it wrong!&lt;/p&gt;
 
 &lt;p&gt;As extreme programmers, we can turn up the dials on this collaborative programming and make it even more fun. Anyone who has sat with an XP team will notice that pairing often expands to tripling when a pair is wrestling with a tricky problem. &lt;a href=&quot;http://www.mobprogramming.org&quot;&gt;Mob Programming&lt;/a&gt; is the deliberate choice to work together as a team on a single story. I’m not talking about “swarming” where more than one pair works in parallel on the same story. Mobbing is where the whole team writes production code on a single machine.&lt;/p&gt;
 
