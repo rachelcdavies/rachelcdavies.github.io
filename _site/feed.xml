@@ -6,9 +6,36 @@
 </description>
     <link>http://rachelcdavies.github.io/</link>
     <atom:link href="http://rachelcdavies.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Apr 2015 15:18:39 +0100</pubDate>
-    <lastBuildDate>Fri, 17 Apr 2015 15:18:39 +0100</lastBuildDate>
+    <pubDate>Mon, 20 Apr 2015 16:07:42 +0100</pubDate>
+    <lastBuildDate>Mon, 20 Apr 2015 16:07:42 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Who&#39;s Afraid Of Conway&#39;s Law?</title>
+        <description>&lt;p&gt;You may have heard about Conway’s Law &lt;em&gt;“Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure.”&lt;/em&gt; I’m guessing you already had some inkling that how we organise our teams has implications for the shape of our software. It’s pretty normal to divide up teams by the parts of the system they’re responsible for. Most organisations can and do spin up new teams to match their ongoing initiatives. &lt;/p&gt;
+
+&lt;p&gt;So why might Conway’s Law be something to watch out for? Well, it’s not so much that our org chart impacts system architecture and that re-orgs are slow to execute. Communication actually happens between individuals within an organisation. The quality of communication is impacted by factors like location, personality and the medium of conversation (email, chat, in-person, etc). Even when there’s no barrier to talking, sometimes it’s hard to be heard in conversations with busy people or someone who has very different interests.&lt;/p&gt;
+
+&lt;p&gt;Taking this into consideration, our stated reasons may not be the real reasons, for code to be in one place over another. Our decisions about where to put code reflect what we know about the wider system. Under time pressure, we may also weigh convenience for ourselves over convenience for others in such decisions. Design decisions in the small can have an impact on the system in the large. Although an organisation usually plans around a “big picture” architecture, it’s likely that this view is being eroded by tiny transgressions made every day – over time the effect of Conway’s Law is that it becomes harder to make changes to the system. &lt;/p&gt;
+
+&lt;p&gt;As we move into a world that embraces Lean/Agile thinking, we want to be able to pivot and to make swift changes to a system, as we chase an evolving market. Conway’s Law makes this hard because the actual design produced reflects the reality of our communication structure. Simple changes end up touching more places than strictly necessary like a scaled up version of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Shotgun_surgery&quot;&gt;Shotgun Surgery&lt;/a&gt; anti-pattern. When the system needs to be changed, meetings ensue between people with vested interests in parts of the system who dig their heels in over who should do the work. The reason we worry about Conway’s Law is time, which costs money and a lot of painful meetings, in order to repurpose a system to fulfil different functions.&lt;/p&gt;
+
+&lt;p&gt;I believe it is possible to diminish the impact of change by working &lt;strong&gt;with&lt;/strong&gt; Conway’s Law. We can work purposefully to create more fluidity in the “human layer” of our systems. We can build awareness of the wider system by gradually exposing people who work on the system to different areas of code. As XP practitioners, teams at &lt;a href=&quot;http://tech.unruly.co/&quot;&gt;Unruly&lt;/a&gt; follow the XP principle of Collective Ownership. All our code is developed in pairs and more recently &lt;a href=&quot;http://rachelcdavies.github.io/2015/04/15/mob-programming.html&quot;&gt;mobs&lt;/a&gt;. To make this possible, we try to hire generalists over specialists and build opportunities in for developers to &lt;a href=&quot;http://rachelcdavies.github.io/2014/07/17/broadening-developer-horizons.html&quot;&gt;broaden&lt;/a&gt; their skills.&lt;/p&gt;
+
+&lt;p&gt;When we split into product teams, a few years ago, we wanted to create independent teams that could deploy changes to our products without waiting on another team. However, we were aware that the move to work as independent teams would likely to lead to divergence in coding practice, which might later make it hard to move people or code between teams. We deliberately chose to combat this risk by proactively offering the opportunity to all developers to rotate between teams. We regularly ask everyone if they’d like to switch team, what their preference on team and timing would be. Team moves are not guaranteed - it wouldn’t make sense to move everyone around at the same time. We don’t force anyone to move but we find that’s not necessary. Having someone coming into your team from another team brings in new ideas and answering their questions can trigger existing team members to reconsider design decisions. In addition to longer rotations, We also have cross-team pairing days, dedicated to improving our infrastructure and UX across our systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://rachelcdavies.github.io/images/roundabout.jpg&quot; alt=&quot;Developer rotation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Following our experience with &lt;a href=&quot;http://rachelcdavies.github.io/2014/05/12/developer-exchange.html&quot;&gt;Developer eXchanges&lt;/a&gt; with other companies, we now do mini-exchanges between our own teams for shorter periods. All our new developers get to work in each of the other teams to help them build a broader sense of our codebase and user needs. We also do mini-exchanges of more senior developers, when a team is picking up a new area of code from another team, we send someone with the code to fill in the background about how it currently works. Mob programming is currently our favourite way of getting a team started on a new area of code. &lt;/p&gt;
+
+&lt;p&gt;By deliberately building mechanisms that allow all developers to work on code with another team, we find that we are more easily able to take on change in our codebase. It would be great to hear about other organisations who are taking Conway’s Law seriously and reduce the cost of change through applying XP principles.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Apr 2015 00:00:00 +0100</pubDate>
+        <link>http://rachelcdavies.github.io/2015/04/20/afraid-conways-law.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2015/04/20/afraid-conways-law.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Modern XP, Join The Mob</title>
@@ -281,48 +308,6 @@ our developers simply got stuck into disassembling desks and lifting floor tiles
         <pubDate>Mon, 12 May 2014 00:00:00 +0100</pubDate>
         <link>http://rachelcdavies.github.io/2014/05/12/developer-exchange.html</link>
         <guid isPermaLink="true">http://rachelcdavies.github.io/2014/05/12/developer-exchange.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>No Magic Words</title>
-        <description>&lt;p&gt;I gave a talk at &lt;a href=&quot;http://www.meetup.com/ACE-Agile-Coaching-Exchange/&quot; target=&quot;_blank&quot; title=&quot;Agile Coaches Exchange&quot;&gt;Agile Coaches Exchange meet up&lt;/a&gt; yesterday and someone emailed afterwards saying&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&amp;quot;Rachel mentioned about few questions that she &amp;#0160;uses during one on one. Those set of questions could help me a lot because I am terrible to start and flow the conversation with my team.&amp;quot;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;So I thought it might be handy to do a quick write-up of what questions I tend use in individual coaching sessions. &amp;#0160;&lt;/p&gt;
-&lt;p&gt;Well just to be clear,&amp;#0160;I don’t follow an exact format or set list of questions -- I’ve been coaching for so long that questions seem to come burbling out of my mouth without much premeditation or forethought. Here&amp;#39;s what I think I ask but this might actually differ a lot depending on the person or current issues.&lt;/p&gt;
-&lt;p&gt;Before we head off to our meeting, I check “Is now a good time for you?” and I’m fine to move to another time or skip the meeting.&amp;#0160;&lt;strong&gt;Coaching is always optional.&lt;/strong&gt;&amp;#0160;&lt;/p&gt;
-&lt;p&gt;Once we sit down, I tend to start with open questions like:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“How are you doing?”&lt;/li&gt;
-&lt;li&gt;“Are things going well at the moment?”&lt;/li&gt;
-&lt;li&gt;“Are there any issues you want to discuss?”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This tends to open out topic areas that we kick around -- discussing root causes , trying to see events from other perspectives and identifying possible courses of action.&lt;/p&gt;
-&lt;p&gt;I also look back in my notebook to see whether we talked about any specific issues at our last meeting:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“Last time we discussed pair rotation in your team, is that working better now?” or&lt;/li&gt;
-&lt;li&gt;“You facilitated a retrospective for the ABC team last week, how do you think that went?”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If they led a meeting, I ask if they’d like any feedback from me.&lt;/p&gt;
-&lt;p&gt;I might also mention current events such as team or process&amp;#0160;changes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;quot;We have a new developer joining your team next week, have you thought about how she&amp;#39;s going to get to know the system?&amp;quot;&lt;/li&gt;
-&lt;li&gt;&amp;quot;We&amp;#39;ve changed the story time meeting format to run it with both teams together, how do you think that&amp;#39;s working out?&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If the conversation dries up then we move onto specific areas such as personal development:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“What research projects/Gold Cards have you been working on lately?”&lt;/li&gt;
-&lt;li&gt;“Got any plans to give a lightning talk about that next week?”&lt;/li&gt;
-&lt;li&gt;“You mentioned that you were planning to submit for XYZ conference, have you sketched out an abstract?”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I usually check at the end “Are there any other things you wanted to discuss?” and let them know that I’m around to discuss further any time.&lt;/p&gt;
-&lt;p&gt;There are no magic words or special incantations that I’m aware of. The main thing is to focus on what the other person has to say and try to listen carefully to what they’re experiencing and changes they wish for. I care about whether they’re happy at work and hope that talking will help them stop worrying about things that are holding them back and start acting on their concerns and ideas.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 17 Apr 2014 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2014/04/17/no-magic-words.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2014/04/17/no-magic-words.html</guid>
         
         
       </item>
