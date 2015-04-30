@@ -6,8 +6,8 @@
 </description>
     <link>http://rachelcdavies.github.io/</link>
     <atom:link href="http://rachelcdavies.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Apr 2015 21:57:02 +0100</pubDate>
-    <lastBuildDate>Thu, 30 Apr 2015 21:57:02 +0100</lastBuildDate>
+    <pubDate>Thu, 30 Apr 2015 21:59:57 +0100</pubDate>
+    <lastBuildDate>Thu, 30 Apr 2015 21:59:57 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -22,7 +22,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://rachelcdavies.github.io/images/strimming.jpg&quot; alt=&quot;Strimming&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;To ensure more time is available to improve our systems, developers may try to making technical work visible to their business stakeholders as “technical stories”. We recently created a technical story to cover a rewrite of a stats pipeline to handle higher volumes of data. However, there’s just so much mundane stuff that it doesn’t make sense to expose a large stream of technical stories to stakeholders unless it’s going to seriously impact delivery of new features. Most Scrum teams have a bunch of technical tasks jostling for time alongside work on new features. When this work is all lumped together in a single burndown and condensed into velocity, it’s really hard for any team to get the balance between these types of work right.&lt;/p&gt;
+&lt;p&gt;To ensure more time is available to improve our systems, developers may try to making technical work visible to their business stakeholders as “technical stories”. We recently created a technical story to cover a rewrite of a stats pipeline to handle higher volumes of data. However, there’s just so much mundane stuff that it doesn’t make sense to expose a large stream of technical stories to stakeholders unless it’s going to seriously impact delivery of new features. Most Scrum teams have a bunch of technical tasks jostling for time alongside work on new features. When this work is all lumped together into a single line on a burndown chart and aggregated into team velocity, it’s really hard for any team to get the balance between these types of work right.&lt;/p&gt;
 
 &lt;p&gt;Inspired by a Kanban technique, separating out different &lt;em&gt;Classes of Service&lt;/em&gt; for feature development over support changes, I encouraged our XP teams at &lt;a href=&quot;http://tech.unruly.co&quot;&gt;Unruly&lt;/a&gt; to separate out different types of work on their team boards. This enables  teams to balance their capacity across the different types of work: features, tech tasks, support, research. Doing this helps us maintain momentum on all of these different types of work. Sounds a bit complicated? Making different kinds of work visual helps us not to neglect one kind of work over another.&lt;/p&gt;
 
