@@ -4,7 +4,7 @@ title:  "Making Time To Tend Code"
 date:   2015-04-30 
 ---
 
-Our codebases can be considered to be like a garden, we only enjoy fruits from it with appropriate investment of time and care. Plants don’t stay the same shape, as time passes they grow in all directions, eventually dying back to make room for others. Code grows in different directions over time too, sometimes we also need to get rid of code that yields little business value. To walk easily around your garden, you have to cut back stray branches to keep paths clear. Like gardeners, developers need to tend their codebases. We need time to prune sprawling code, thin out overcrowded components and tease out new services so they may flourish. 
+Codebases can be considered to be like gardens, we enjoy fruits from them by tending them with care. Garden plants don’t stay the same shape, as time passes they grow in all directions eventually dying back to make room for others. Code also grows in different directions over time and as patches of code start to yield less business value we need to consider removing it. To walk easily around your garden, you have to cut back stray branches and sweep up to keep paths clear. Like gardeners, software developers need to tend their codebases. We need time to prune sprawling code, thin out overcrowded components and tease out new services so they may flourish. 
 
 ![Wheelbarrow](http://rachelcdavies.github.io/images/Wheelbarrow.jpg)
 
@@ -22,7 +22,7 @@ How it works here is our teams use different colour cards to represent different
 
 ![Green Cards on the Board](http://rachelcdavies.github.io/images/OldTabascoBoard.jpg)
 
-All of our teams use simple tracking mechanisms to ensure that we maintain a balance between new features and technical improvement. One team does [dot counting](http://rachelcdavies.github.io/2014/03/03/dot-counting.html). Two of our other teams keep an area on their whiteboard for tracking where their time goes. They have their own system of coloured magnets and hieroglyphs. These are updated at standup and we take photos of the board to reviewed in our team retrospectives.
+All of our teams use simple tracking mechanisms to ensure that we maintain a balance between new features and technical improvement. One team does [dot counting](http://rachelcdavies.github.io/2014/03/03/dot-counting.html). Two of our other teams keep an area on their whiteboard for tracking where their time goes. They have their own system of coloured magnets and hieroglyphs. These trackers are updated by the team at standup and we take photos of them to review in our team retrospectives.
 
 Each team prioritises their green cards weekly. We ask whether doing this work help us deliver value to our business. Or as Bruce likes to put it *“does this make our real days closer to ideal days?”*. This helps us select technical tasks that will help us with upcoming feature work.
 
