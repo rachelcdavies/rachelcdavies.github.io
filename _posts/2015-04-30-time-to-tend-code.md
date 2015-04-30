@@ -4,7 +4,7 @@ title:  "Making Time To Tend Code"
 date:   2015-04-30 
 ---
 
-Codebases can be considered to be like gardens, we enjoy fruits from them by tending them with care. Garden plants don’t stay the same shape, as time passes they grow in all directions eventually dying back to make room for others. Code also grows in different directions over time and as patches of code start to yield less business value we need to consider removing it. To walk easily around your garden, you have to cut back stray branches and sweep up to keep paths clear. Like gardeners, software developers need to tend their codebases. We need time to prune sprawling code, thin out overcrowded components and tease out new services so they may flourish. 
+Codebases are in some ways like gardens, to continue to be fruitful, they must be tended them with care. Garden plants don’t stay the same shape, as time passes they grow in all directions eventually dying back to make room for others. Code also grows in different directions over time and as patches of code start to yield less business value we need to consider removing it. To walk easily around your garden, you have to cut back stray branches and sweep up to keep paths clear. Like gardeners, software developers need to tend their codebases. We need time to prune sprawling code, thin out overcrowded components and tease out new services so they may flourish. 
 
 ![Wheelbarrow](http://rachelcdavies.github.io/images/Wheelbarrow.jpg)
 
