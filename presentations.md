@@ -4,8 +4,7 @@ title: Presentations
 permalink: /presentations/
 ---
 
-I uploaded my slides for past talks to [SlideShare](http://www.slideshare.net/RachelDavies)
-Below you can find a list of videos of my keynotes, workshops and talks.
+I put my slides for past talks on [SlideShare](http://www.slideshare.net/RachelDavies) and here are links to some of them.
 
 {% for video in site.videos %}
   [{{ video.title }}]({{ video.link }})
