@@ -15,4 +15,5 @@ markdown: kramdown
 
 collections:
 - events
+- videos
 
