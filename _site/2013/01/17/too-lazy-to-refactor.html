@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>About</title>
+    <title>Too Lazy To Refactor?</title>
     <meta name="description" content="Thoughts on Agile Coaching
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rachelcdavies.github.io/about/">
+    <link rel="canonical" href="http://rachelcdavies.github.io/2013/01/17/too-lazy-to-refactor.html">
 </head>
 
 
@@ -70,14 +70,28 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title">Too Lazy To Refactor?</h1>
+    <p class="post-meta">17 Jan 2013</p>
   </header>
+  <article class="post-content"><p>Larry Wall wrote in <a href="http://en.wikipedia.org/wiki/Programming_Perl">Programming Perl</a> 
+<em>&quot;We will encourage you to develop the three great virtues of a programmer: laziness, impatience, and hubris.&quot;</em> </p>
+<p>Laziness is defined as the quality that makes you go to great effort to reduce overall energy expenditure. It makes you write labor-saving programs that other people will find useful, and document what you wrote so you don&#39;t have to answer so many questions about it.</p>
+<p>You don&#39;t have to work with a team for long to hear developers moan about the terrible legacy code they have to live with every day. Programmers clearly don&#39;t like to wade through the mire of legacy code to get their work done. Yet poorly factored code seems to accrete at an amazing rate around us, even on green field projects where we have the chance to do things right from the outset. Perhaps the virtue of laziness is also our achilles heel?</p>
+<p>It seems strange that developers dislike poorly factored code so much and yet keep contributing to the problem. While it is true that business pressure can drive programmers to defer clean-up tasks that can be done later, we often don&#39;t refactor as mercilessly as we could. Is our tendency to laziness also contributing factor? Or perhaps we are merely waiting until we get a clearer sense of the shape we would like our code to be?</p>
+<p>Not so many years ago it was writing unit tests that programmers tended to skip as an optional, do-later task. Over the last decade XP has helped shift that mindset. Now Test-Driven Development and suites of automated unit tests are considered good practice even by teams not following Agile development. Developers like the way that TDD helps them work in safe baby steps, solving one small problem at a time and getting a satisfying green bar as a signal of progress.</p>
+<p>However in XP&#39;s Red-Green-Refactor cycle, Refactoring becomes that semi-optional step at the end that&#39;s easy to skimp on. We no longer defer writing tests because we have the Red-Green bar of our testing framework to keep us in check but there&#39;s nothing to give us that feedback on our refactoring. We can&#39;t easily tell whether enough refactoring has been done, if any.</p>
+<p>How much refactoring is appropriate is a judgement call for the developers working on the code. We tend to have different tolerances for smelly code and of course major clean-up can be hard work so it&#39;s easy to be tempted to do light amount of cosmetic refactoring, renaming and shuffling things into smaller functions rather than tackling the larger structural issues. Is this where code rot sets in?</p>
+<p>To combat our natural lazy tendencies, we look for process and routines that will help us stick to good practice. Many agile teams add columns to their boards for testing and code review. If we follow Michael Feather&#39;s <a href="http://michaelfeathers.typepad.com/michael_feathers_blog/2013/01/refactoring-is-sloppy.html" target="_blank" title="on Refactoring">advice</a>, we could also add a column for preparatory Refactoring tasks before we start work on a story.</p>
+<p>Rather than the classic XP Red-Green-Refactor cycle where we try to &quot;<a href="http://c2.com/cgi/wiki?RefactorMercilessly" target="_blank" title="RefactorMercilessly">Refactor Mercilessly</a>&quot; on our production code, Michael&#39;s idea is that the clean-up should be done first and by a different developer than the one adding the feature to foster scrutiny and communication about the design. This approach would help teams visualise refactoring work and make it a normal part of our planned work rather than an optional extra if we have time and energy to keep our code clean.</p>
 
-  <article class="post-content">
-    <p>I’m Rachel Davies and I’ve been working in software development since 1987. I wrote a basic book about <a href="https://pragprog.com/book/sdcoach/agile-coaching">“Agile Coaching”</a> with <a href="https://pragprog.com/users/display_profile/48266">Liz Sedley</a>. I work as a team lead at <a href="http://tech.unruly.co/">Unruly</a> in London where we mostly use eXtreme Programming (XP). In my spare time I like going for long walks.</p>
-
-
-  </article>
+</article>
+    If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?text=Too Lazy To Refactor?&url=http://rachelcdavies.github.io/2013/01/17/too-lazy-to-refactor.html&via=rachelcdavies" 
+   target="_blank">
+  share it with your followers</a> 
+or 
+<a href="https://twitter.com/rachelcdavies">
+  follow me on Twitter</a>!
 
 </div>
 
