@@ -6,9 +6,30 @@
 </description>
     <link>http://rachelcdavies.github.io/</link>
     <atom:link href="http://rachelcdavies.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 May 2016 22:47:23 +0100</pubDate>
-    <lastBuildDate>Sun, 08 May 2016 22:47:23 +0100</lastBuildDate>
+    <pubDate>Sat, 26 Nov 2016 23:42:46 +0000</pubDate>
+    <lastBuildDate>Sat, 26 Nov 2016 23:42:46 +0000</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Free Learning</title>
+        <description>&lt;p&gt;Imagine getting a day every week for your own technical learning. Pick whatever language or framework you like and spend the entire day learning more about it during paid hours! A massive benefit to any developer keen to keep up with a multitude of tools and practice new skills.&lt;/p&gt;
+
+&lt;p&gt;All our developers are encouraged to take a learning day every week. We call these “Gold Card” days and each team figures out who wants to take one during the daily standup meeting. On a typical day, we’ll have a couple of pairs implementing a user story or technical tasks, one person on support duty and the remainder of the team taking learning or research time. A simple grid on a whiteboard is used to ensure no one misses taking theirs. We want everyone to improve and if I don’t take a learning day, it’s bound to come up in team retrospective.&lt;/p&gt;
+
+&lt;p&gt;Last week I joined a conversation about “20% Learning Time” at &lt;a href=&quot;https://2016.godigital.is/open-space.html&quot;&gt;GoDigital&lt;/a&gt; conference, there were lots of questions about how this works in practice. An essential aspect is that we trust developers to use this time wisely. There’s no checking up or pressure to pick certain learning topics relevant to the work. The only expectation is that at the end of the week, you show up to “Gold Card Catchup” to share a little bit about what you learned and perhaps demo something you built to your fellow developers. Making time to share what we learned is vital to sustaining learning time. We get inspired hearing about what other developers have been looking into and it encourages us pick something for our own learning that demonstrates what we’re interested in too.&lt;/p&gt;
+
+&lt;p&gt;Sometimes developers with shared interests team up on their gold cards and even make the results of their day together available to the wider team afterwards. Although most developers appreciate a quiet day of learning, as a break from the intense collaboration of pair and mob programming. Some developers like to take their learning day alongside teams in our open workspace while others prefer to find solitude on a comfy sofa.&lt;/p&gt;
+
+&lt;p&gt;Teams at Unruly have been taking Gold Cards for some years now but the idea (and the name) goes back in 2001, as explained in &lt;a href=&quot;http://www.morethan.technology/downloads/papers/InnovationAndSustainabilityWithGoldCards.pdf&quot;&gt;this experience report&lt;/a&gt; at XPUniverse conference. There’s much more to our learning culture than Gold Cards too. We also hold regular tech talks and coding dojos.&lt;/p&gt;
+
+&lt;p&gt;Learning is a gift that keeps on giving. Making learning time part of our daily work helps our developers improve their skills and fosters a culture of exploration and innovation. I hope to see more workplaces offer learning time more freely. Trusting developers to drive their own learning is a vital sign of respect and belief in their potential.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+        <link>http://rachelcdavies.github.io/2016/11/26/free-learning.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2016/11/26/free-learning.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Making Time To Tend Code</title>
@@ -267,71 +288,6 @@ our developers simply got stuck into disassembling desks and lifting floor tiles
         <pubDate>Thu, 19 Jun 2014 00:00:00 +0100</pubDate>
         <link>http://rachelcdavies.github.io/2014/06/19/the-folly-of-scaling-agile.html</link>
         <guid isPermaLink="true">http://rachelcdavies.github.io/2014/06/19/the-folly-of-scaling-agile.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Conference Club</title>
-        <description>&lt;h4 id=&quot;ConferenceClub-%27...thefirstruleofConferenceClubistotalkabouttalkingatConferenceClub...%27&quot;&gt;&lt;em&gt;&amp;quot;The first rule of Conference Club is to talk about talking at conferences&amp;quot;&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;Presenting at conferences is a great experience where you get to consolidate your knowledge and connect with other people passionate about the same things. But speaking in front of your peers can be a scary prospect for developers and they often underestimate the value to others of what they know. For instance in our teams, we have lots of experience&amp;#0160;with XP, Continuous Delivering, UX and JS testing frameworks. Does that mean we&amp;#39;re all experts? Not necessarily but we can share practitioner experiences and that&amp;#39;s a valuable to people who&amp;#39;re only just getting started with new approaches.&lt;/p&gt;
-&lt;p&gt;Back in January, I started a lunchtime meeting called &amp;quot;Conference Club&amp;quot; for anyone in our team who wanted to learn more about the steps they need to take to present at industry conferences. Five months later, I&amp;#39;m pleased to see that several of the people who came along have submitted sessions to calls for participation and been accepted as speakers.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screen Shot 2014-05-27 at 17.34.21&quot; class=&quot;asset  asset-image at-xid-6a00e54ee21bf2883401a73dcc4f5f970d img-responsive&quot; src=&quot;http://agilecoach.typepad.com/.a/6a00e54ee21bf2883401a73dcc4f5f970d-320wi&quot; style=&quot;margin: 0px 5px 5px 0px;&quot; title=&quot;Screen Shot 2014-05-27 at 17.34.21&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Alex and Benji presented on &lt;a href=&quot;http://vimeo.com/channels/pipelineconf/96233529&quot; target=&quot;_blank&quot; title=&quot;Scaling Continuous Delivery&quot;&gt;&amp;quot;Scaling Continuous Delivery&amp;quot;&lt;/a&gt; at Pipeline conference in London&lt;/li&gt;
-&lt;li&gt;Vikki presented a &lt;a href=&quot;http://2014.jsday.it/talk/if-you-like-it-then-you-should-have-put-a-test-on-it-a-comparison-of-front-end-acceptance-testing-frameworks/&quot; target=&quot;_blank&quot; title=&quot;comparison of front-end acceptance testing frameworks&quot;&gt;comparisonof front-end acceptance testing frameworks&lt;/a&gt;&amp;#0160;at JsDay in Verona&lt;/li&gt;
-&lt;li&gt;Arber will be presenting on &amp;quot;Extreme Product Development&amp;quot; at &lt;a href=&quot;http://agilenorth.org/2014-conference/&quot; target=&quot;_blank&quot; title=&quot;Agile North&quot;&gt;Agile North&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mike will be presenting on &amp;quot;&lt;a href=&quot;http://sched.co/1eEp8RW&quot; target=&quot;_blank&quot; title=&quot;Zombie Persona Apocalypse&quot;&gt;Zombie Personas&lt;/a&gt;&amp;quot; at Agile2014.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We only had a few meetings of Conference Club but it was enough to explore people&amp;#39;s worries and share some practical tips on how to get over them.&lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;font-size: 1.17em;&quot;&gt;Basic Steps&lt;/span&gt;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;TOPIC: Identify topics you are interested in and know something about&lt;/li&gt;
-&lt;li&gt;BIO: Update your profile on LinkedIn / GitHub / blog / Twitter to reflect your interest/experience&lt;/li&gt;
-&lt;li&gt;WHERE: Find meetups / conferences that might people go along to discuss that topic which have open space or CFP (call for participation)&lt;/li&gt;
-&lt;li&gt;DATES: When do you need to submit a proposal by, these can be upto 6 months before the conference date&lt;/li&gt;
-&lt;li&gt;FORMAT: consider what format is best fit for you and conference (workshop, talk, experience report, etc)&lt;/li&gt;
-&lt;li&gt;PREPARE: design material slides or exercise to lead session participants through subject of interest.&lt;/li&gt;
-&lt;li&gt;PROPOSE: put forward your idea to organisers&lt;/li&gt;
-&lt;li&gt;PRACTICE: do a run thru of session with small group to work out any glitches&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;One basic thing that speakers need to do is practice so we have a fortnightly lightning talks forum that can be used to build confidence speaking to an audience. Unconference events are also great places to explore a topic as you figure out what you want to present to a wider audience.&lt;/p&gt;
-&lt;h3&gt;Homework Assignments&lt;/h3&gt;
-&lt;p&gt;1)&amp;#0160;Write a bio for someone else at the meeting using Scott Berkun&amp;#39;s tips on &lt;a href=&quot;http://scottberkun.com/2013/how-to-write-a-good-bio/&quot; target=&quot;_self&quot; title=&quot;How to Write a Good Bio&quot;&gt;how to write a good bio&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2) Prepare an answer to one of the following questions from&amp;#0160;&lt;a href=&quot;http://www.noelrappin.com/railsrx/2014/1/18/conference-prompts-or-how-to-submit-proposals-and-influence-people&quot; rel=&quot;nofollow&quot;&gt;Noel Rappin&amp;#39;s blog&amp;#0160;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3) Write an abstract for a new session you&amp;#39;d like to propose for a user group or conference.&lt;/p&gt;
-&lt;h4&gt;&lt;span style=&quot;font-size: 1.17em;&quot;&gt;Useful Blogs&lt;/span&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://janogonzalez.com/2013/12/02/conference-speaking-how-to.html&quot;&gt;Conference speaking HOW-TO&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://jenmyers.net/confessions-of-a-semi-amateur-speaker.html&quot;&gt;Confessions of a Semi-Amateur Speaker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://christianheilmann.com/2012/09/05/de-bricking-yourself-starting-out-as-a-speaker/&quot;&gt;Debricking yourself as a speaker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://plg.uwaterloo.ca/~migod/research/beckOOPSLA.html&quot;&gt;Kent Beck on how to write a conference abstract&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://chadfowler.com/blog/2013/06/08/how-to-give-a-keynote/&quot;&gt;Chad Fowler on&amp;#0160;how to give a keynote&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://ladiesintech.com/sara-wachter-boettcher-fights-a-cheetah/&quot;&gt;Podcast on slowing down pace&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://seriouspony.com/blog/2013/10/4/presentation-skills-considered-harmful&quot;&gt;Presentation Skills Considered Harmful&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://speaking.io/&quot;&gt;http://speaking.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=7059303&quot;&gt;https://news.ycombinator.com/item?id=7059303&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.linkedin.com/today/post/article/20140107225219-172811-presenters-don-t-go-the-way-of-michael-bay&quot;&gt;http://www.linkedin.com/today/post/article/20140107225219-172811-presenters-don-t-go-the-way-of-michael-bay&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.duarte.com/blog/public-speaking-for-introverts-6-essential-tips&quot;&gt;http://www.duarte.com/blog/public-speaking-for-introverts-6-essential-tips&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/course/publicspeak&quot;&gt;https://www.coursera.org/course/publicspeak&lt;/a&gt;&amp;#0160;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.presentationzen.com/presentationzen/2014/01/dealing-with-presentation-anxiety-stage-fright.html&quot;&gt;Dealing with stage fright&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.garrreynolds.com/Presentation/pdf/presentation_tips.pdf&quot;&gt;Presentation Zen summary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sixminutes.dlugan.com/vocal-variety-speech-breathing/&quot;&gt;Breathing for voice projection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=ynmemxQicQk&quot;&gt;How to project your voice&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://speaking.io/&quot;&gt;http://speaking.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=hRdDdS5aZMM&quot;&gt;Triangle Method for eye contact&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.annashipman.co.uk/jfdi/conference-speaking.html&quot;&gt;http://www.annashipman.co.uk/jfdi/conference-speaking.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://weareallaweso.me/&quot;&gt;http://weareallaweso.me/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rckbt.me/2014/01/conference-proposals/&quot;&gt;http://rckbt.me/2014/01/conference-proposals/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://seb.ly/2014/05/how-to-ask-to-get-paid-to-speak/&quot;&gt;http://seb.ly/2014/05/how-to-ask-to-get-paid-to-speak/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&amp;#0160;I also recommend following &lt;a href=&quot;https://twitter.com/callbackwomen&quot; target=&quot;_blank&quot; title=&quot;Callback Women&quot;&gt;Callback Women&lt;/a&gt; to pick up upcoming call for participation.&lt;/p&gt;
-&lt;p&gt;&amp;#0160;&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 27 May 2014 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2014/05/27/conference-club.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2014/05/27/conference-club.html</guid>
         
         
       </item>
