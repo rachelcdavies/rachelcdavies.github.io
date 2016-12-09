@@ -6,8 +6,8 @@
 </description>
     <link>http://rachelcdavies.github.io/</link>
     <atom:link href="http://rachelcdavies.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 26 Nov 2016 23:42:46 +0000</pubDate>
-    <lastBuildDate>Sat, 26 Nov 2016 23:42:46 +0000</lastBuildDate>
+    <pubDate>Fri, 09 Dec 2016 11:24:31 +0000</pubDate>
+    <lastBuildDate>Fri, 09 Dec 2016 11:24:31 +0000</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -27,6 +27,35 @@
         <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
         <link>http://rachelcdavies.github.io/2016/11/26/free-learning.html</link>
         <guid isPermaLink="true">http://rachelcdavies.github.io/2016/11/26/free-learning.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Building Products From the Inside-Out</title>
+        <description>&lt;p&gt;How exactly do you go about building minimum viable products following Eric Ries’s &lt;a href=&quot;http://theleanstartup.com/principles&quot;&gt;Build-Measure-Learn&lt;/a&gt; cycle set out in his &lt;a href=&quot;http://theleanstartup.com/book&quot;&gt;Lean Startup&lt;/a&gt; book? An approach you’ve probably heard about can be characterised as “Outside-In”. Start by building a interface that users can engage with and add implementation based on what you learn about their preferences from these interactions. This Outside-In technique is ideal for front-end heavy products aimed at the man-on-the-street. But what if you’re building services used by other businesses or your own?&lt;/p&gt;
+
+&lt;p&gt;An alternative technique, we use at Unruly, is to build minimum viable products “Inside-Out”. We start by building just enough product to generate business value and defer building any user interface to configure these products until a later date when we know more about what’s needed. How does this work in practice? Well, we build services that are configured on the inside by developers and only make features configurable from the outside when we’re confident we know enough about what generates revenue. This approach enables us to test the market for a feature and learn more about various configurations that are needed by our business before we add controls to make these features serve-serve.&lt;/p&gt;
+
+&lt;p&gt;Here’s a simple example. Say we’re being asked by our stakeholders to introduce the capability to block ads that don’t render properly - this is valuable to our business because these ads could win slots on publisher pages but if they don’t display properly we won’t be able to charge for them. When this request comes up, we don’t know how popular this ad blocking capability will be. We may be able to pursue alternative approaches to block ads at other points in the ad serving pipeline. We may also find that such ads cannot effectively be blocked in this way, if their identities only have a short lifetime. Given this situation, it doesn’t make sense for us to invest in making a user interface to configure ad blocking yet.&lt;/p&gt;
+
+&lt;p&gt;Instead, our first step is implement a minimum viable product by adding the capability to block ads using a hard-coded list of ad ids in our real-time bidding exchange. Sounds yucky but we don’t know whether it’s worth investing more time in this yet. Once this is live, we let our business teams know to send in a support ticket when they’d like to get an ad blocked. Now we wait for support tickets to trickle in.&lt;/p&gt;
+
+&lt;p&gt;A couple weeks after the feature is released, we get our first support ticket requesting an ad to be blocked. The id to be blocked are added into our new list within the exchange and deployed. When the next ticket comes in, the list gets longer, this prompts a refactor to make it easier to manage the list of blocked ad ids. The day after that the original ad block is requested to be removed. Today we only have a single ad block in the exchange and so it’s definitely not worth investing in building a user interface to configure these.&lt;/p&gt;
+
+&lt;p&gt;If we continue to receive more requests, the activity to block ads via this hard coded list starts to eat up developer time. We now propose a story to move the list of blocked ad ids out into a flat file that can be manually edited by our solutions engineers and pushed to our servers using a script. If editing the configuration is fiddly, we’ll invest more time in scripts to make this easier and less error prone.&lt;/p&gt;
+
+&lt;p&gt;We are likely to operate ad blocking in MVP-mode for several months. When it becomes valuable enough to turn such ad blocking requests around faster, we’ll figure out a logical place to provide a user interface for our Ad Operations teams to configure this setting themselves. However, if this feature turns out not to be as valuable as anticipated, we’ll consider retiring this capability.&lt;/p&gt;
+
+&lt;p&gt;Are there any gotchas with this inside-out approach to building MVP? Well, this approach adds to the carrying cost of these features until they are fully productised. Some of these product features never get fully productised and the carrying cost for several months may end up as more than the implementation of fully fledged features. Our business users also end up waiting upto a day to have configuration set for them and there’s potential value lost by not being able to switch settings immediately. And yes sometimes systems feel a bit Heath-Robinson when configuration is done in the backend in various places.&lt;/p&gt;
+
+&lt;p&gt;The benefit for us, in taking an inside-out approach to building our products, is that we can get these features out of the door quickly and generate revenue quickly. Making product features available via manual configuration buys us time to figure out whether we want to invest in a proper self-serve business process around new features often mooted before fully getting to grips with likely uptake and consequences.&lt;/p&gt;
+
+&lt;p&gt;Building products from inside-out can be a useful technique is situations where configuration doesn’t need to be immediate and user experience is not a major factor in doing business. It takes a little extra time for everyone to get things setup but can be a useful way to test the business impact of an idea.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
+        <link>http://rachelcdavies.github.io/2016/11/05/building-products-inside-out.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2016/11/05/building-products-inside-out.html</guid>
         
         
       </item>
@@ -273,21 +302,6 @@ our developers simply got stuck into disassembling desks and lifting floor tiles
         <pubDate>Fri, 27 Jun 2014 00:00:00 +0100</pubDate>
         <link>http://rachelcdavies.github.io/2014/06/27/good-enough-software-design-try-testing-dx-of-your-code.html</link>
         <guid isPermaLink="true">http://rachelcdavies.github.io/2014/06/27/good-enough-software-design-try-testing-dx-of-your-code.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Folly of Scaling Agile</title>
-        <description>&lt;p&gt;I’m jotting down a few notes on Scaling Agile software development as Bucharest Agile group invited me to talk about doing this. I have already warned them that I am very skeptical about attempts to apply agile practices on large endeavours. While preparing for our conversation, I thought it might be helpful for me to blog about the reasons why I’m not a fan of Scaling Agile as this may make our conversation easier to follow and help the group to come up with some questions.&lt;br /&gt;&lt;br /&gt;When we apply Agile principles, we strip away process so that software developers can work more collaboratively with business people to identify what is the most valuable thing for them to deliver next. We focus on building working software and releasing as early as we can to help us figure out what to build based on feedback from users. Working this way is much harder when a lot of people are involved!&lt;br /&gt;&lt;br /&gt;A bunch of things break down as you scale up. The biggest one is not being able to maintain interpersonal relationships through which rich information flows, these are replaced with weaker lossy forms of communication and misunderstandings about what is the right thing to build next follow.&lt;/p&gt;
-&lt;p&gt;Typical things that become difficult at scale are access to business people and infrastructure controlled by others outside immediate team. Meetings get long and tedious, we start sending a representative from each team, which introduces more secondhand information, emails and documentation.&lt;/p&gt;
-&lt;p&gt;When a project is big and is being changed by many hands it becomes much harder to understand the whole, we start to introduce hierarchy with a select few looking at the bigger picture and paying attention to separating concerns to allow different teams to work in parallel. As a result, choice is removed from the team and it can feel in teams that edicts come down from on high through a series of chutes and screens that mask the reasoning behind them.&lt;br /&gt;&lt;br /&gt;Often the initial attraction of Agile approaches to a business is to reduce delivery timescales and enable developers to work faster with a lightweight approach. Working in small teams allows individuals to feel more engaged because they have some influence on how things are built. When a lot of people are working in parallel coordination becomes harder. Ideally we need skilled people who have enough experience to work independently without the guide-rails of process. &lt;br /&gt;&lt;br /&gt;Yes, I have seen plenty of organisations with large systems being maintained, expanded and extended by multiple teams. When each team has to interface to many others decisions take longer to make. Where a large number of people are working on a complex thing, it takes a lot of effort to keep up with what’s happening other areas and most reduce their focus to the work at hand. Once they reduce their focus and interfaces between teams become walls to hide behind. When myopia is easier then teams tend to make local suboptimal changes rather than considering the whole.&lt;br /&gt;&lt;br /&gt;A large body people working on a large body of code often feels crazily chaotic or oppressively bureaucratic to work within. In these conditions developer motivation is often dimmed, people leave taking away valuable knowledge of how the system evolved and why things are. New people who need to learn how things work join and struggle to make sense of it all, the situation gets worse. &lt;br /&gt;&lt;br /&gt;There are a few agile practices that can help in scaled up situations - such as having reliable automated builds, decent test coverage and teamwork but these are also painful to maintain with a lot of people involved. I’ve seen many large organisations attempt to apply Agile at scale. It’s hard and although it can bring more humanity to work in-the-small, I’m not sure there is much evidence that it is actually better than traditional ways of organising the work.&lt;br /&gt;&lt;br /&gt;I appreciate that there are large systems out in the world that need to be supported and evolved to better meet user and business needs. I remain unconvinced that throwing a lot of people at the problem makes things any faster. I believe deadlines driving this behaviour are defined without realising the impact on the maintainability and quality of existing software. Code is an asset and so is the knowledge that software developers carry - businesses can run into costly mistakes if they ignore their value.&lt;br /&gt;&lt;br /&gt;Attempting to scale to go faster is driven business greed and ambition - not a bad thing in the commercial world but it’s like seeing a someone blindfold attempting to run along a cliff edge while juggling priceless antique glass vases. Mistakes at scale are costly!&lt;/p&gt;
-&lt;p&gt;When it seems that scaling up is the only way to go, challenge yourself to think of a smaller simpler thing to build sooner that gives faster feedback. Try to limit your total Work-In-Progess by reducing the amount of development being done in parallel across the organisation. When a smaller group of people is involved in development, choices about which way to go next can be made more quickly and there&amp;#39;s less waiting around. Ultimately, this goes back to Agile Manifesto values - focus on better interactions betweem individuals to produce valuable software sooner -- not on a process to enable lumbering projects at scale.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 19 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2014/06/19/the-folly-of-scaling-agile.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2014/06/19/the-folly-of-scaling-agile.html</guid>
         
         
       </item>
