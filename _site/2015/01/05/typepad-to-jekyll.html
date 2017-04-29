@@ -85,9 +85,9 @@
 
 <p>I also wanted an <a href="http://rachelcdavies.github.io/events/">Events</a> page generated from simple markdown files listing name and link of event and was very happy how quick this was to put together. See snippet below.</p>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html">{% for event in site.events %}
-  {{ event.date | date: ' %d %b %Y '}} <span class="ni">&amp;raquo;</span> [{{ event.title }}]({{ event.link }})
-{% endfor %}</code></pre></figure>
+<div class="highlight"><pre><code class="language-html" data-lang="html">{% for event in site.events %}
+  {{ event.date | date: &#39; %d %b %Y &#39;}} <span class="ni">&amp;raquo;</span> [{{ event.title }}]({{ event.link }})
+{% endfor %}</code></pre></div>
 
 <p>My new site is still work-in-progress, many photos embedded in old posts link to images on Typepad – I’ll be gradually trawling through to clean those up. The site also has rather a vanilla look to it for now. But I’m happy with my new site and definitely have a smoother workflow for new posts. Please alert me to any glitches you spot with it.</p>
 </article>
