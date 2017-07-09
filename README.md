@@ -1,4 +1,4 @@
-blog
+Blog
 ====
 
 Blog powered by Jekyll

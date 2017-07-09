@@ -4,11 +4,11 @@
     <title>Thoughts on Agile Coaching</title>
     <description>Thoughts on Agile Coaching
 </description>
-    <link>http://rachelcdavies.github.io/</link>
-    <atom:link href="http://rachelcdavies.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 29 Apr 2017 16:05:14 +0100</pubDate>
-    <lastBuildDate>Sat, 29 Apr 2017 16:05:14 +0100</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 09 Jul 2017 15:01:57 +0100</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2017 15:01:57 +0100</lastBuildDate>
+    <generator>Jekyll v3.5.0</generator>
     
       <item>
         <title>Free Learning</title>
@@ -25,8 +25,8 @@
 &lt;p&gt;Learning is a gift that keeps on giving. Making learning time part of our daily work helps our developers improve their skills and fosters a culture of exploration and innovation. I hope to see more workplaces offer learning time more freely. Trusting developers to drive their own learning is a vital sign of respect and belief in their potential.&lt;/p&gt;
 </description>
         <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
-        <link>http://rachelcdavies.github.io/2016/11/26/free-learning.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2016/11/26/free-learning.html</guid>
+        <link>http://localhost:4000/2016/11/26/free-learning.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/11/26/free-learning.html</guid>
         
         
       </item>
@@ -54,8 +54,8 @@
 &lt;p&gt;Building products from the inside-out can be a useful technique in situations where configuration doesn’t need to be immediate and user experience is not a major factor in doing business. It takes a little extra time for everyone to get things setup to reap the benefits from features built this way but can be a useful way to test the business impact of an idea before baking into our operations user interface.&lt;/p&gt;
 </description>
         <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
-        <link>http://rachelcdavies.github.io/2016/11/05/building-products-inside-out.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2016/11/05/building-products-inside-out.html</guid>
+        <link>http://localhost:4000/2016/11/05/building-products-inside-out.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/11/05/building-products-inside-out.html</guid>
         
         
       </item>
@@ -95,14 +95,14 @@
 &lt;p&gt;You may wonder whether putting prioritisation of technical tasks in the hands of developers leads to business priorities being ignored. We prefer to consider that our developers are taking on more responsibility and accountability for protecting our software as a business assets. We also find this way of working helps developers keep their code bases pleasant and easy to work in.&lt;/p&gt;
 </description>
         <pubDate>Thu, 30 Apr 2015 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2015/04/30/time-to-tend-code.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2015/04/30/time-to-tend-code.html</guid>
+        <link>http://localhost:4000/2015/04/30/time-to-tend-code.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/04/30/time-to-tend-code.html</guid>
         
         
       </item>
     
       <item>
-        <title>Who&#39;s Afraid Of Conway&#39;s Law?</title>
+        <title>Who's Afraid Of Conway's Law?</title>
         <description>&lt;p&gt;You may have heard about Conway’s Law &lt;em&gt;“Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure.”&lt;/em&gt; I’m guessing you already had some inkling that how we organise our teams has implications for the shape of our software. It’s pretty normal to divide up teams by the parts of the system they’re responsible for. Most organisations can and do spin up new teams to match their ongoing initiatives.&lt;/p&gt;
 
 &lt;p&gt;So why might Conway’s Law be something to watch out for? Well, it’s not so much that our org chart impacts system architecture and that re-orgs are slow to execute. Communication actually happens between individuals within an organisation. The quality of communication is impacted by factors like location, personality and the medium of conversation (email, chat, in-person, etc). Even when there’s no barrier to talking, sometimes it’s hard to be heard in conversations with busy people or someone who has very different interests.&lt;/p&gt;
@@ -122,8 +122,8 @@
 &lt;p&gt;By deliberately building mechanisms that allow all developers to work on code with another team, we find that we are more easily able to take on change in our codebase. It would be great to hear about other organisations who are taking Conway’s Law seriously and attempting to reduce the cost of change through applying XP principles.&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Apr 2015 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2015/04/20/afraid-conways-law.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2015/04/20/afraid-conways-law.html</guid>
+        <link>http://localhost:4000/2015/04/20/afraid-conways-law.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/04/20/afraid-conways-law.html</guid>
         
         
       </item>
@@ -150,8 +150,8 @@
 
 </description>
         <pubDate>Wed, 15 Apr 2015 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2015/04/15/mob-programming.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2015/04/15/mob-programming.html</guid>
+        <link>http://localhost:4000/2015/04/15/mob-programming.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/04/15/mob-programming.html</guid>
         
         
       </item>
@@ -170,15 +170,15 @@
 
 &lt;p&gt;I also wanted an &lt;a href=&quot;http://rachelcdavies.github.io/events/&quot;&gt;Events&lt;/a&gt; page generated from simple markdown files listing name and link of event and was very happy how quick this was to put together. See snippet below.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% for event in site.events %}
-  {{ event.date | date: &amp;#39; %d %b %Y &amp;#39;}} &lt;span class=&quot;ni&quot;&gt;&amp;amp;raquo;&lt;/span&gt; [{{ event.title }}]({{ event.link }})
-{% endfor %}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% for event in site.events %}
+  {{ event.date | date: ' %d %b %Y '}} &lt;span class=&quot;ni&quot;&gt;&amp;amp;raquo;&lt;/span&gt; [{{ event.title }}]({{ event.link }})
+{% endfor %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;My new site is still work-in-progress, many photos embedded in old posts link to images on Typepad – I’ll be gradually trawling through to clean those up. The site also has rather a vanilla look to it for now. But I’m happy with my new site and definitely have a smoother workflow for new posts. Please alert me to any glitches you spot with it.&lt;/p&gt;
 </description>
         <pubDate>Mon, 05 Jan 2015 16:18:09 +0000</pubDate>
-        <link>http://rachelcdavies.github.io/2015/01/05/typepad-to-jekyll.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2015/01/05/typepad-to-jekyll.html</guid>
+        <link>http://localhost:4000/2015/01/05/typepad-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/01/05/typepad-to-jekyll.html</guid>
         
         
       </item>
@@ -195,8 +195,8 @@
 
 </description>
         <pubDate>Wed, 17 Dec 2014 00:00:00 +0000</pubDate>
-        <link>http://rachelcdavies.github.io/2014/12/17/beyond-coding.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2014/12/17/beyond-coding.html</guid>
+        <link>http://localhost:4000/2014/12/17/beyond-coding.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/12/17/beyond-coding.html</guid>
         
         
       </item>
@@ -226,8 +226,8 @@ our developers simply got stuck into disassembling desks and lifting floor tiles
 &lt;p&gt;I appreciate that many people work in organisations that don’t actively support personalisation of the workspace but you can start small with a potted plant, a team mascot, a little whiteboard artwork. You&amp;#39;ll likely find personal touches are noticed and soon start to spread around surrounding teams. Another small step that you can take is to adopt iteration names or pictures that pick up on what’s going on in the outside world or reflect metaphorically on current mood within the team. In software development, we spend a lot of time in an office environment, taking care of your surroundings helps to take care of the people working within them.&lt;/p&gt;
 </description>
         <pubDate>Wed, 23 Jul 2014 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2014/07/23/workplace-design-creating-a-home-from-home.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2014/07/23/workplace-design-creating-a-home-from-home.html</guid>
+        <link>http://localhost:4000/2014/07/23/workplace-design-creating-a-home-from-home.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/07/23/workplace-design-creating-a-home-from-home.html</guid>
         
         
       </item>
@@ -252,8 +252,8 @@ our developers simply got stuck into disassembling desks and lifting floor tiles
 &lt;p&gt;There are a few things for developers to weigh up when considering whether to specialise deeply or broaden their horizons. What do you sacrifice when following one path versus rewards to be gained? The main reward for full-spectrum developers is building greater confidence to dive into different technologies; you may spend less time writing code but become more able to deliver end-to-end solutions that hit the spot. As generalists, you likely have a wider choice of companies to work at and are more resilient to industry trends. As specialists, you gain the pleasure of total immersion in a particular sphere of software while you build tolerance to the frustrations of waiting around for others to do their bit. It&amp;#39;s up to you!&lt;/p&gt;
 </description>
         <pubDate>Thu, 17 Jul 2014 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2014/07/17/broadening-developer-horizons.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2014/07/17/broadening-developer-horizons.html</guid>
+        <link>http://localhost:4000/2014/07/17/broadening-developer-horizons.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/07/17/broadening-developer-horizons.html</guid>
         
         
       </item>
@@ -300,8 +300,8 @@ our developers simply got stuck into disassembling desks and lifting floor tiles
 
 </description>
         <pubDate>Fri, 27 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://rachelcdavies.github.io/2014/06/27/good-enough-software-design-try-testing-dx-of-your-code.html</link>
-        <guid isPermaLink="true">http://rachelcdavies.github.io/2014/06/27/good-enough-software-design-try-testing-dx-of-your-code.html</guid>
+        <link>http://localhost:4000/2014/06/27/good-enough-software-design-try-testing-dx-of-your-code.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/06/27/good-enough-software-design-try-testing-dx-of-your-code.html</guid>
         
         
       </item>

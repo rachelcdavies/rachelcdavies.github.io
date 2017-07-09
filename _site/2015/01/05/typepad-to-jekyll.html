@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rachelcdavies.github.io/2015/01/05/typepad-to-jekyll.html">
+    <link rel="canonical" href="http://localhost:4000/2015/01/05/typepad-to-jekyll.html">
 </head>
 
 
@@ -85,14 +85,14 @@
 
 <p>I also wanted an <a href="http://rachelcdavies.github.io/events/">Events</a> page generated from simple markdown files listing name and link of event and was very happy how quick this was to put together. See snippet below.</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">{% for event in site.events %}
-  {{ event.date | date: &#39; %d %b %Y &#39;}} <span class="ni">&amp;raquo;</span> [{{ event.title }}]({{ event.link }})
-{% endfor %}</code></pre></div>
+<figure class="highlight"><pre><code class="language-html" data-lang="html">{% for event in site.events %}
+  {{ event.date | date: ' %d %b %Y '}} <span class="ni">&amp;raquo;</span> [{{ event.title }}]({{ event.link }})
+{% endfor %}</code></pre></figure>
 
 <p>My new site is still work-in-progress, many photos embedded in old posts link to images on Typepad – I’ll be gradually trawling through to clean those up. The site also has rather a vanilla look to it for now. But I’m happy with my new site and definitely have a smoother workflow for new posts. Please alert me to any glitches you spot with it.</p>
 </article>
     If you liked this post, you can
-<a href="https://twitter.com/intent/tweet?text=Moving from Typepad to Jekyll&url=http://rachelcdavies.github.io/2015/01/05/typepad-to-jekyll.html&via=rachelcdavies" 
+<a href="https://twitter.com/intent/tweet?text=Moving from Typepad to Jekyll&url=http://localhost:4000/2015/01/05/typepad-to-jekyll.html&via=rachelcdavies" 
    target="_blank">
   share it with your followers</a> 
 or 
