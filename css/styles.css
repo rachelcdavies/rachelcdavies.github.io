@@ -1,0 +1,22 @@
+.calendar li {
+	list-style: none; /* Remove bullet points */
+  font-size: 16px;
+  margin: 0 50px 0 50px;
+	padding: 0 0 20px 0;
+	text-align: left;
+}
+.videos li {
+	list-style: none; /* Remove bullet points */
+  font-size: 16px;
+  margin: 0 10px 0 10px;
+	padding: 0 0 30px 0;
+	text-align: left;
+}
+
+.blogs li {
+	list-style: none; /* Remove bullet points */
+  font-size: 16px;
+  margin: 0 10px 0 10px;
+	padding: 0 0 30px 0;
+	text-align: left;
+}

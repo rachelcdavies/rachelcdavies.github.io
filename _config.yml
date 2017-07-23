@@ -1,19 +1,18 @@
-# Site settings
-title: Thoughts on Agile Coaching
-description: > # this means to ignore newlines until "baseurl:"
-  Thoughts on Agile Coaching
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rachelcdavies.github.io" # the base hostname & protocol for your site
+url: http://rachelcdavies.github.io
+baseurl: ""
 
-twitter_username: rachelcdavies
-github_username:  rachelcdavies
+# Site Settings
+title: rachelcdavies
+description: "Rachel C Davies Home"
+author: "Rachel C Davies"
 
-exclude: ["Gemfile", "Gemfile.lock", "README.md"] # files to exclude
+# Career Settings
+# Default career thumbnail image.
+career-img: "img/timeline/default.jpg"
 
-# Build settings
-markdown: kramdown
+exclude: ["Rakefile", "LICENSE", "readme.md"]
 
 collections:
 - events
 - videos
-
+- blog
