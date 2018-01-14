@@ -11,8 +11,3 @@ author: "Rachel C Davies"
 career-img: "img/timeline/default.jpg"
 
 exclude: ["Rakefile", "LICENSE", "readme.md"]
-
-collections:
-- events
-- videos
-- blog
