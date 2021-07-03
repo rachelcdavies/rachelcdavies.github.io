@@ -3,19 +3,30 @@
   <channel>
     <title>rachelcdavies</title>
     <description>Rachel C Davies Home</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Feb 2018 15:06:06 +0000</pubDate>
-    <lastBuildDate>Fri, 09 Feb 2018 15:06:06 +0000</lastBuildDate>
-    <generator>Jekyll v3.5.0</generator>
+    <link>http://rachelcdavies.github.io/</link>
+    <atom:link href="http://rachelcdavies.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 03 Jul 2021 20:00:25 +0100</pubDate>
+    <lastBuildDate>Sat, 03 Jul 2021 20:00:25 +0100</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>2018</title>
-        <description>&lt;p&gt;Senior Software Engineer at &lt;a href=&quot;https://www.tes.com/tesglobal&quot;&gt;TES Global&lt;/a&gt; developing full-stack JavaScript microservices.&lt;/p&gt;
+        <title>2021</title>
+        <description>&lt;p&gt;Senior Software Engineering Manager, Ecosystems at &lt;a href=&quot;https://snyk.io/&quot;&gt;Snyk&lt;/a&gt;. Developing data platform in Scala and Typescript.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Jun 2021 00:00:00 +0100</pubDate>
+        <link>http://rachelcdavies.github.io/2021/06/28/job01.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2021/06/28/job01.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2018 - 2021</title>
+        <description>&lt;p&gt;Principal Engineer at &lt;a href=&quot;https://www.tes.com/tesglobal&quot;&gt;TES Global&lt;/a&gt; developing data pipeline in Python and JavaScript.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2018/02/01/job01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/02/01/job01.html</guid>
+        <link>http://rachelcdavies.github.io/2018/02/01/job01.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2018/02/01/job01.html</guid>
         
         
       </item>
@@ -25,8 +36,8 @@
         <description>&lt;p&gt;Lead Engineer at &lt;a href=&quot;http://www.makersacademy.com/&quot;&gt;Makers Academy&lt;/a&gt; developing in Ruby and JavaScript.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Apr 2017 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2017/04/01/job01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/01/job01.html</guid>
+        <link>http://rachelcdavies.github.io/2017/04/01/job01.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2017/04/01/job01.html</guid>
         
         
       </item>
@@ -36,8 +47,8 @@
         <description>&lt;p&gt;Agile Coach and Team Lead in Product Development at &lt;a href=&quot;https://unruly.co/&quot;&gt;Unruly&lt;/a&gt; developing products in Java and JavaScript with XP.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 May 2012 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2012/05/01/job01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2012/05/01/job01.html</guid>
+        <link>http://rachelcdavies.github.io/2012/05/01/job01.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2012/05/01/job01.html</guid>
         
         
       </item>
@@ -47,8 +58,8 @@
         <description>&lt;p&gt;Director growing a network of trainers and coaches at &lt;a href=&quot;https://www.industriallogic.com/&quot;&gt;Industrial Logic&lt;/a&gt; Europe.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Oct 2011 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2011/10/01/job01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2011/10/01/job01.html</guid>
+        <link>http://rachelcdavies.github.io/2011/10/01/job01.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2011/10/01/job01.html</guid>
         
         
       </item>
@@ -58,8 +69,8 @@
         <description>&lt;p&gt;Co-author &lt;a href=&quot;https://pragprog.com/book/sdcoach/agile-coaching&quot;&gt;Agile Coaching&lt;/a&gt; for Pragmatic Bookshelf, sold over 11,000 copies and is translated for China, France, Germany, India, and Japan.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Aug 2009 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2009/08/01/job01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2009/08/01/job01.html</guid>
+        <link>http://rachelcdavies.github.io/2009/08/01/job01.html</link>
+        <guid isPermaLink="true">http://rachelcdavies.github.io/2009/08/01/job01.html</guid>
         
         
       </item>
