@@ -5,6 +5,7 @@
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     {% include navigation-minimal.html %}
+    <main id="main-content">
     <section class="container content-section text-center">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
@@ -12,12 +13,13 @@
 
             <ul class="blogs">
              {% for blog in site.blog %}
-               <li><i class="fa-solid fa-book"></i> {{ blog.date | date_to_string }} <i class="fa-solid fa-angles-right"></i> <a href="{{ blog.url }}">&nbsp;{{ blog.title }}</a></li>
+               <li><i class="fa-solid fa-book" aria-hidden="true"></i> {{ blog.date | date_to_string }} <i class="fa-solid fa-angles-right" aria-hidden="true"></i> <a href="{{ blog.url }}">&nbsp;{{ blog.title }}</a></li>
              {% endfor %}
             </ul>
           </div>
         </div>
    </section>
+    </main>
 
   {% include footer.html %}
   {% include js.html %}

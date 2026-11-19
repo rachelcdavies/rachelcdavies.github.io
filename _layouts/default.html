@@ -5,9 +5,12 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+	<a class="sr-only sr-only-focusable" href="#main-content">Skip to main content</a>
+
 	{% include navigation.html %}
 	{% include header.html %}
 
+  <main id="main-content">
   {% for page in site.pages %}
     {% if page.section-type == "default" %}
       <!-- {{ page.title }} Section -->
@@ -31,7 +34,7 @@
                 {% endif %}
                 <ul class="list-inline social-buttons">
                     {% for network in page.social %}
-                    <li><a href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }} fa-fw"></i></a></li>
+                    <li><a href="{{ network.url }}" aria-label="{{ network.label | default: network.title }}"><i class="fa-brands fa-{{ network.title }} fa-fw" aria-hidden="true"></i></a></li>
                     {% endfor %}
                 </ul>
               </div>
@@ -47,7 +50,7 @@
 
 						<ul class="calendar">
 						{% for event in site.events %}
-							<li>{{ event.date | date: ' %d %b %Y '}}<i class="fa-solid fa-angles-right"></i><a href="{{ event.link }}">  {{ event.title }}</a></li>
+							<li>{{ event.date | date: ' %d %b %Y '}}<i class="fa-solid fa-angles-right" aria-hidden="true"></i><a href="{{ event.link }}">  {{ event.title }}</a></li>
 						{% endfor %}
 						</ul>
 	           </div>
@@ -64,7 +67,7 @@
 
 							<ul class="calendar">
 								{% for video in site.videos %}
-				  				<li><a href="{{ video.link }}"><i class="fa-solid fa-video"></i>  {{ video.title }}</a></li>
+				  				<li><a href="{{ video.link }}"><i class="fa-solid fa-video" aria-hidden="true"></i>  {{ video.title }}</a></li>
 								{% endfor %}
 							</ul>
 							 </div>
@@ -92,8 +95,8 @@
                       </div>
                       <div class="timeline-panel">
                           <div class="timeline-heading">
-                              <h4>{{ post.title }}</h4>
-                              <h4 class="subheading">{{ post.subtitle }}</h4>
+                              <h3 class="h4">{{ post.title }}</h3>
+                              {% if post.subtitle and post.subtitle != "" %}<h4 class="subheading">{{ post.subtitle }}</h4>{% endif %}
                           </div>
                           <div class="timeline-body">
                               <p class="text-muted">{{ post.content }}</p>
@@ -116,6 +119,7 @@
       </section>
     {% endif %}
   {% endfor %}
+  </main>
 
 	{% include footer.html %}
 	{% include js.html %}

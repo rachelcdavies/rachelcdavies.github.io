@@ -7,12 +7,14 @@
 
     {% include navigation-minimal.html %}
 
+    <main id="main-content">
     <section id="{{ page.title }}" class="container content-section text-center">
       <div class="row">
           {{ page.content }}
           {% include twitter_plug.html %}
       </div>
     </section>
+    </main>
   {% include footer.html %}
   {% include js.html %}
 
