@@ -1,4 +1,4 @@
-url: http://rachelcdavies.github.io
+url: https://rachelcdavies.github.io
 baseurl: ""
 
 # Site Settings
@@ -10,4 +10,17 @@ author: "Rachel C Davies"
 # Default career thumbnail image.
 career-img: "img/timeline/default.jpg"
 
-exclude: ["Rakefile", "LICENSE", "readme.md"]
+collections:
+  blog:
+    output: true
+  events:
+    output: false
+  videos:
+    output: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude: ["Rakefile", "LICENSE", "README.md", "Gemfile", "Gemfile.lock", "vendor"]
