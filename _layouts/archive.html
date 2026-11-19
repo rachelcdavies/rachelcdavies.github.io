@@ -12,7 +12,7 @@
 
             <ul class="blogs">
              {% for blog in site.blog %}
-               <li><i class="fa fa-book"></i> {{ blog.date | date_to_string }} <i class="fa fa-angle-double-right"></i> <a href="{{ blog.url }}">&nbsp;{{ blog.title }}</a></li>
+               <li><i class="fa-solid fa-book"></i> {{ blog.date | date_to_string }} <i class="fa-solid fa-angles-right"></i> <a href="{{ blog.url }}">&nbsp;{{ blog.title }}</a></li>
              {% endfor %}
             </ul>
           </div>
