@@ -29,3 +29,8 @@ button:focus-visible,
   outline: 3px solid #fec503;
   outline-offset: 3px;
 }
+
+/* Lighter muted text for contrast on the black background (#999 = 7.4:1) */
+.text-muted {
+  color: #999;
+}
